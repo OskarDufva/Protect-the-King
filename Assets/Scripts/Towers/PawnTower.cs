@@ -12,6 +12,8 @@ public class PawnTower : MonoBehaviour
     [SerializeField] private List<Vector2Int> _targetedTiles = new List<Vector2Int>();
     private DragDrop _dragDrop;
 
+    private float timer = 0.0f;
+
     private void Start()
     {
         _gameManager = FindObjectOfType<GameManager>();
@@ -21,7 +23,18 @@ public class PawnTower : MonoBehaviour
 
     private void Update()
     {
-        DealDamage();
+        timer += Time.deltaTime;
+
+        Debug.Log(timer);
+        if (timer > _attackSpeed)
+        {
+
+
+            DealDamage();
+            timer = 0;
+
+        }
+
     }
 
     private void GetTargetedTiles()
