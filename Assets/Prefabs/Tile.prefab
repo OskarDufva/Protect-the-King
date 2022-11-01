@@ -288,7 +288,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.6018156, g: 0.7924528, b: 0.60299504, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
   TileTxt: {fileID: 495841810830407855}
   EnemyPathTile: 0
