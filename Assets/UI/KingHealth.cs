@@ -5,12 +5,13 @@ using UnityEngine.UI;
 
 public class KingHealth : MonoBehaviour
 {
-    public Image KingHealthBarImage;
+    public Image HealthBar;
     public King king;
-    
+
 
     public void UpdateHealthBar()
     {
-        KingHealthBarImage.fillAmount = Mathf.Clamp(king._health / king._maxHealth, 0, 1f);
+        float fillAmount = Mathf.Clamp(king._health / king._maxHealth, 0, 1f);
+        HealthBar.fillAmount = fillAmount;
     }
 }
