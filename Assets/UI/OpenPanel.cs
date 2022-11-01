@@ -7,17 +7,29 @@ public class OpenPanel : MonoBehaviour
     public GameObject Panel;
     bool active;
 
+
     public void OpenAndClose()
     {
-        if(active == false)
+        //if(active == false)
+        //{
+        //    Panel.transform.gameObject.SetActive(true);
+        //    active = true;
+        //}
+        //else
+        //{
+        //    Panel.transform.gameObject.SetActive(false);
+        //    active = false; 
+        //}
+
+        if (Panel != null)
         {
-            Panel.transform.gameObject.SetActive(true);
-            active = true;
-        }
-        else
-        {
-            Panel.transform.gameObject.SetActive(false);
-            active = false; 
+            Animator animator = Panel.GetComponent<Animator>();
+            if (animator != null)
+            {
+                bool isOpen = animator.GetBool("Open");
+
+                animator.SetBool("Open", !isOpen);
+            }
         }
     }
 }
