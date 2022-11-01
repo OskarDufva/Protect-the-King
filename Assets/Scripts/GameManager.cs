@@ -88,23 +88,47 @@ public class GameManager : MonoBehaviour
         _waveTxt.text = "Wave: " + value + "/" + _waveManager.WaveAmountCounter().ToString();
     }
 
-    public void HighlightUnoccupiedTiles()
+    public void HighlightUnoccupiedTiles(bool KingPlacement)
     {
-        for (int x = 0; x < Tiles.Length; x++)
+        if(KingPlacement == false)
         {
-            for (int y = 0; y < Tiles[0].Tiles.Length; y++)
+            for (int x = 0; x < Tiles.Length; x++)
             {
-                if (Tiles[x].Tiles[y] != _CurrentHoveredTile)
+                for (int y = 0; y < Tiles[0].Tiles.Length; y++)
                 {
-                    if (Tiles[x].Tiles[y].EnemyPathTile == false && Tiles[x].Tiles[y].OccupiedTile == false)
+                    if (Tiles[x].Tiles[y] != _CurrentHoveredTile)
                     {
+                        if (Tiles[x].Tiles[y].EnemyPathTile == false && Tiles[x].Tiles[y].OccupiedTile == false)
+                        {
                         Tiles[x].Tiles[y].ValidPlacementColor();
-                    }
-                    else
-                    {
+                        }
+                        else
+                        {
                         Tiles[x].Tiles[y].InvalidPlacementColor();
+                        }
+                    }                
+                }
+            }
+        }
+
+        if(KingPlacement == true)
+        {
+            for (int x = 0; x < Tiles.Length; x++)
+            {
+                for (int y = 0; y < Tiles[0].Tiles.Length; y++)
+                {
+                    if (Tiles[x].Tiles[y] != _CurrentHoveredTile)
+                    {
+                        if (Tiles[x].Tiles[y].EnemyPathTile == true && Tiles[x].Tiles[y].OccupiedTile == false)
+                        {
+                            Tiles[x].Tiles[y].ValidPlacementColor();
+                        }
+                        else
+                        {
+                            Tiles[x].Tiles[y].InvalidPlacementColor();
+                        }
                     }
-                }                
+                }
             }
         }
     }
