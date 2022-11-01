@@ -3,16 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MainMenuScript : MonoBehaviour
+public class CampaignSceneScript : MonoBehaviour
 {
-    public void PlayGame ()
+    public void GoBackToGameModes()
     {
         SceneManager.LoadScene("GameModes");
-    }
-
-    public void QuitGame ()
-    {
-        Debug.Log("Quit!");
-        Application.Quit();
     }
 }
