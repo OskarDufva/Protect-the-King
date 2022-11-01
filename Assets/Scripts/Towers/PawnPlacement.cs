@@ -33,6 +33,5 @@ public class PawnPlacement : MonoBehaviour
         _gameManager._CurrentHoveredTile.OccupiedTile = true;
         temp.transform.position = _gameManager._CurrentHoveredTile.transform.position;
 
-
     }
 }

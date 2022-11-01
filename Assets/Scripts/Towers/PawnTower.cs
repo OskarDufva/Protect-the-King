@@ -16,10 +16,7 @@ public class PawnTower : MonoBehaviour
     {
         _gameManager = FindObjectOfType<GameManager>();
         _dragDrop = FindObjectOfType<DragDrop>();
-        for (int i = 0; i < _dragDrop.valid.Count; i++)
-        {
-            _targetedTiles.Add(_dragDrop.valid[i]);
-        }
+        GetTargetedTiles();
     }
 
     private void Update()
@@ -27,6 +24,13 @@ public class PawnTower : MonoBehaviour
         DealDamage();
     }
 
+    private void GetTargetedTiles()
+    {
+        for (int i = 0; i < _dragDrop.valid.Count; i++)
+        {
+            _targetedTiles.Add(_dragDrop.valid[i]);
+        }
+    }
     private void DealDamage()
     {
         for (int i = 0; i < _targetedTiles.Count; i++)
