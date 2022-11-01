@@ -26,6 +26,9 @@ public class GameManager : MonoBehaviour
     public TileArray[] Tiles;
     [SerializeField]public TileArray[] EmptyTiles;
 
+    public GameObject StartWaveButton;
+    private bool isActive;
+
     private void Start()
     {
         _waveManager = FindObjectOfType<Wavemanager>();
@@ -64,6 +67,10 @@ public class GameManager : MonoBehaviour
         if (_waveManager.EnemiesAlive <= 0 && Phases == Phases.PreparationPhase)
         {
             Phases = Phases.ActionPhase;
+
+            StartWaveButton.transform.gameObject.SetActive(false);
+            isActive = false;
+
             _waveManager.SpawnWave(_currentWave);
             WaveTxt();
             _currentWave++;

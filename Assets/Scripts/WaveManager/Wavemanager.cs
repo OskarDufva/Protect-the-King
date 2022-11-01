@@ -9,6 +9,8 @@ public class Wavemanager : MonoBehaviour
     public int EnemiesAlive = 0;
     public WaveList[] _waveList;
 
+    public GameObject StartWaveButton;
+    private bool isActive; 
     private void Start()
     {
         if(GameManager == null)
@@ -37,6 +39,8 @@ public class Wavemanager : MonoBehaviour
         if (EnemiesAlive <= 0)
         {
             GameManager.ChangePhases(Phases.PreparationPhase);
+            StartWaveButton.transform.gameObject.SetActive(true);
+            isActive = true;
         }
     }
 
