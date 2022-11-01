@@ -10,14 +10,14 @@ public class Knight : MonoBehaviour
     private GameManager _gameManager;
 
     [SerializeField] private List<Vector2Int> _targetedTiles = new List<Vector2Int>();
-    private HorsePlacement horseplacement;
+    private KnightPlacement horseplacement;
 
     private float timer = 0.0f;
 
     private void Start()
     {
         _gameManager = FindObjectOfType<GameManager>();
-        horseplacement = FindObjectOfType<HorsePlacement>();
+        horseplacement = FindObjectOfType<KnightPlacement>();
         GetTargetedTiles();
     }
 

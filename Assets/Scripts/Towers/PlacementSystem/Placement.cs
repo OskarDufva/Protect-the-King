@@ -29,6 +29,8 @@ public class Placement : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, 
     public List<Vector2Int> PossibleValids = new List<Vector2Int>();
     private Vector2Int ValidIndex;
 
+    public int cost;
+
     private void Awake()
     {
         _rectTransform = GetComponent<RectTransform>();
@@ -46,7 +48,6 @@ public class Placement : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, 
         }
         if (Input.GetKeyDown(KeyCode.R))
         {
-            print("Changed direction");
             if (_direction == Direction.Right)
             {
                 _direction = Direction.Down;
@@ -93,7 +94,7 @@ public class Placement : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, 
     {
         _canvasGroup.alpha = 1f;
         _rectTransform.localPosition = Vector3.zero;
-        _placement.SpawnTower(_placeKing);
+        _placement.SpawnTower(_placeKing,cost);
         ResetColors();
         _gameManager.ResetColors();
         IsDragging = false;
@@ -124,7 +125,6 @@ public class Placement : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, 
         
         for (int i = 0; i < PossibleValids.Count; i++)
         {
-            print(_gameManager.Tiles[PossibleValids[i].x].Tiles[PossibleValids[i].y]);
             _gameManager.Tiles[PossibleValids[i].x].Tiles[PossibleValids[i].y].AttackColor();
         }
 
@@ -160,7 +160,6 @@ public class Placement : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, 
             case Direction.Right:
                 for (int i = 0; i < AttackDirectionRight.Count; i++)
                 {
-                    print(AttackDirectionRight[i]);
                     Vector2Int temp = new Vector2Int(this.ValidIndex.x + AttackDirectionRight[i].x, this.ValidIndex.y + AttackDirectionRight[i].y);
                     PossibleValids.Add(temp);
                 }
@@ -197,28 +196,20 @@ public class Placement : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, 
 
         for (int i = 0; i < PossibleValids.Count; i++)
         {
-            print(PossibleValids[i]);
-        }
-
-        for (int i = 0; i < PossibleValids.Count; i++)
-        {
             if (PossibleValids[i].x >= xLength || PossibleValids[i].x < 0)
             {
                 PossibleValids.RemoveAt(i--);
-                print("removed x lenght");
                 continue;
             }
 
             if (PossibleValids[i].y >= yLength || PossibleValids[i].y < 0)
             {
                 PossibleValids.RemoveAt(i--);
-                print("removed y lenght");
                 continue;
             }
 
             if (_gameManager.Tiles[PossibleValids[i].x].Tiles[PossibleValids[i].y].EnemyPathTile == false)
             {
-                print("removed not enemy path");
                 PossibleValids.RemoveAt(i--);
                 continue;
             }
