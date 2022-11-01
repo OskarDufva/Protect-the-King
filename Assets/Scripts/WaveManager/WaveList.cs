@@ -6,6 +6,7 @@ using UnityEngine;
 public struct WaveList
 {
     public string WaveName;
+    public int GoldGain;
     public EnemyData[] Enemies;
     //public float rate;
 }
