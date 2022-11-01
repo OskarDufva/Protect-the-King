@@ -4,11 +4,15 @@ using UnityEngine;
 
 public class King : MonoBehaviour
 {
-    [SerializeField] private float _health;
+    public float _health;
+    public float _maxHealth;
+    public KingHealth healthBar;
+    
 
-    private void TakeDamage(float damage)
+    void TakeDamage(float damage)
     {
         _health -= damage;
+        healthBar.UpdateHealthBar();
         if (_health <= 0)
         {
             Destroy(gameObject);
