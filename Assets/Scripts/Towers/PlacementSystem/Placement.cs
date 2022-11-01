@@ -19,10 +19,12 @@ public class Placement : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, 
 
     public bool IsDragging = false;
 
+    
     public List<Vector2Int> AttackDirectionRight = new List<Vector2Int>();
     public List<Vector2Int> AttackDirectionDown = new List<Vector2Int>();
     public List<Vector2Int> AttackDirectionLeft = new List<Vector2Int>();
     public List<Vector2Int> AttackDirectionUp = new List<Vector2Int>();
+
     [HideInInspector]
     public List<Vector2Int> PossibleValids = new List<Vector2Int>();
     private Vector2Int ValidIndex;
@@ -33,10 +35,15 @@ public class Placement : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, 
         _canvasGroup = GetComponent<CanvasGroup>();
         _placement = GetComponent<PiecePlacement>();
         _gameManager = FindObjectOfType<GameManager>();
+
     }
 
     private void Update()
     {
+        if(IsDragging == false)
+        {
+            return;
+        }
         if (Input.GetKeyDown(KeyCode.R))
         {
             print("Changed direction");
@@ -63,20 +70,23 @@ public class Placement : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, 
                 _direction = Direction.Right;
                 DisplayAttack(true);
             }
+            DisplayAttack(true);
         }
+        
     }
 
     public void OnBeginDrag(PointerEventData eventData)
     {
         _canvasGroup.alpha = 0.6f;
         _gameManager.HighlightUnoccupiedTiles(_placeKing);
+        IsDragging = true;
     }
 
     public void OnDrag(PointerEventData eventData)
     {
         _rectTransform.anchoredPosition += eventData.delta / _canvas.scaleFactor;
         _gameManager.HighlightUnoccupiedTiles(_placeKing);
-        DisplayAttack();
+        DisplayAttack(true);
     }
 
     public void OnEndDrag(PointerEventData eventData)
@@ -86,6 +96,7 @@ public class Placement : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, 
         _placement.SpawnTower(_placeKing);
         ResetColors();
         _gameManager.ResetColors();
+        IsDragging = false;
     }
 
     public void OnPointerDown(PointerEventData eventData)
@@ -103,17 +114,30 @@ public class Placement : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, 
 
     private void DisplayAttack(bool run = false)
     {
+        _gameManager.HighlightUnoccupiedTiles(_placeKing);
         if (_gameManager._CurrentHoveredTile == null)
         {
             return;
         }
 
         GetValidPositions(_direction, run);
-
+        
         for (int i = 0; i < PossibleValids.Count; i++)
         {
+            print(_gameManager.Tiles[PossibleValids[i].x].Tiles[PossibleValids[i].y]);
             _gameManager.Tiles[PossibleValids[i].x].Tiles[PossibleValids[i].y].AttackColor();
         }
+
+    }
+
+    public void ChangeAttackRight(List<Vector2Int> newList)
+    {
+        AttackDirectionRight.Clear();
+        for (int i = 0; i < newList.Count; i++)
+        {
+            AttackDirectionRight.Add(newList[i]);
+        }
+
     }
 
     private void GetValidPositions(Direction direction, bool run)
@@ -136,28 +160,33 @@ public class Placement : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, 
             case Direction.Right:
                 for (int i = 0; i < AttackDirectionRight.Count; i++)
                 {
-                    PossibleValids.Add(AttackDirectionRight[i]);
+                    print(AttackDirectionRight[i]);
+                    Vector2Int temp = new Vector2Int(this.ValidIndex.x + AttackDirectionRight[i].x, this.ValidIndex.y + AttackDirectionRight[i].y);
+                    PossibleValids.Add(temp);
                 }
                 break;
 
             case Direction.Left:
                 for (int i = 0; i < AttackDirectionLeft.Count; i++)
                 {
-                    PossibleValids.Add(AttackDirectionLeft[i]);
+                    Vector2Int temp = new Vector2Int(this.ValidIndex.x + AttackDirectionLeft[i].x, this.ValidIndex.y + AttackDirectionLeft[i].y);
+                    PossibleValids.Add(temp);
                 }
                 break;
 
             case Direction.Up:
                 for (int i = 0; i < AttackDirectionUp.Count; i++)
                 {
-                    PossibleValids.Add(AttackDirectionUp[i]);
+                    Vector2Int temp = new Vector2Int(this.ValidIndex.x + AttackDirectionUp[i].x, this.ValidIndex.y + AttackDirectionUp[i].y);
+                    PossibleValids.Add(temp);
                 }
                 break;
 
             case Direction.Down:
                 for (int i = 0; i < AttackDirectionDown.Count; i++)
                 {
-                    PossibleValids.Add(AttackDirectionDown[i]);
+                    Vector2Int temp = new Vector2Int(this.ValidIndex.x + AttackDirectionDown[i].x, this.ValidIndex.y + AttackDirectionDown[i].y);
+                    PossibleValids.Add(temp);
                 }
                 break;
 
@@ -165,22 +194,31 @@ public class Placement : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, 
                 break;
         }
 
+
+        for (int i = 0; i < PossibleValids.Count; i++)
+        {
+            print(PossibleValids[i]);
+        }
+
         for (int i = 0; i < PossibleValids.Count; i++)
         {
             if (PossibleValids[i].x >= xLength || PossibleValids[i].x < 0)
             {
                 PossibleValids.RemoveAt(i--);
+                print("removed x lenght");
                 continue;
             }
 
             if (PossibleValids[i].y >= yLength || PossibleValids[i].y < 0)
             {
                 PossibleValids.RemoveAt(i--);
+                print("removed y lenght");
                 continue;
             }
 
             if (_gameManager.Tiles[PossibleValids[i].x].Tiles[PossibleValids[i].y].EnemyPathTile == false)
             {
+                print("removed not enemy path");
                 PossibleValids.RemoveAt(i--);
                 continue;
             }

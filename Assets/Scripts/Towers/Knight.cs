@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PawnTower : MonoBehaviour
+public class Knight : MonoBehaviour
 {
     [SerializeField] private float _damage;
     [SerializeField] private float _attackSpeed;
@@ -10,14 +10,14 @@ public class PawnTower : MonoBehaviour
     private GameManager _gameManager;
 
     [SerializeField] private List<Vector2Int> _targetedTiles = new List<Vector2Int>();
-    private DragDrop _dragDrop;
+    private HorsePlacement horseplacement;
 
     private float timer = 0.0f;
 
     private void Start()
     {
         _gameManager = FindObjectOfType<GameManager>();
-        _dragDrop = FindObjectOfType<DragDrop>();
+        horseplacement = FindObjectOfType<HorsePlacement>();
         GetTargetedTiles();
     }
 
@@ -25,23 +25,19 @@ public class PawnTower : MonoBehaviour
     {
         timer += Time.deltaTime;
 
-        Debug.Log(timer);
         if (timer > _attackSpeed)
         {
-
-
             DealDamage();
             timer = 0;
-
         }
 
     }
 
     private void GetTargetedTiles()
     {
-        for (int i = 0; i < _dragDrop.valid.Count; i++)
+        for (int i = 0; i < horseplacement.PossibleValids.Count; i++)
         {
-            _targetedTiles.Add(_dragDrop.valid[i]);
+            _targetedTiles.Add(horseplacement.PossibleValids[i]);
         }
     }
     private void DealDamage()
