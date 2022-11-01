@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
@@ -5,9 +6,10 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UIElements;
 
-public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndDragHandler,IDragHandler
+public class Placement : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndDragHandler, IDragHandler
 {
     [SerializeField] private Canvas _canvas;
+    [SerializeField] private bool _placeKing;
 
     private RectTransform _rectTransform;
     private CanvasGroup _canvasGroup;
@@ -17,7 +19,12 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
 
     public bool IsDragging = false;
 
-    public List<Vector2Int> valid = new List<Vector2Int>();
+    public List<Vector2Int> AttackDirectionRight = new List<Vector2Int>();
+    public List<Vector2Int> AttackDirectionDown = new List<Vector2Int>();
+    public List<Vector2Int> AttackDirectionLeft = new List<Vector2Int>();
+    public List<Vector2Int> AttackDirectionUp = new List<Vector2Int>();
+    [HideInInspector]
+    public List<Vector2Int> PossibleValids = new List<Vector2Int>();
     private Vector2Int ValidIndex;
 
     private void Awake()
@@ -33,7 +40,7 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
         if (Input.GetKeyDown(KeyCode.R))
         {
             print("Changed direction");
-            if(_direction == Direction.Right)
+            if (_direction == Direction.Right)
             {
                 _direction = Direction.Down;
                 DisplayAttack(true);
@@ -62,14 +69,13 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     public void OnBeginDrag(PointerEventData eventData)
     {
         _canvasGroup.alpha = 0.6f;
-        _gameManager.HighlightUnoccupiedTiles(false);
+        _gameManager.HighlightUnoccupiedTiles(_placeKing);
     }
 
     public void OnDrag(PointerEventData eventData)
     {
-        print("Drag");
         _rectTransform.anchoredPosition += eventData.delta / _canvas.scaleFactor;
-        _gameManager.HighlightUnoccupiedTiles(false);
+        _gameManager.HighlightUnoccupiedTiles(_placeKing);
         DisplayAttack();
     }
 
@@ -77,7 +83,7 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     {
         _canvasGroup.alpha = 1f;
         _rectTransform.localPosition = Vector3.zero;
-        _placement.SpawnTower(false);
+        _placement.SpawnTower(_placeKing);
         ResetColors();
         _gameManager.ResetColors();
     }
@@ -89,9 +95,9 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
 
     private void ResetColors()
     {
-        for (int i = 0; i < valid.Count; i++)
+        for (int i = 0; i < PossibleValids.Count; i++)
         {
-            _gameManager.Tiles[valid[i].x].Tiles[valid[i].y].OriginalColor();
+            _gameManager.Tiles[PossibleValids[i].x].Tiles[PossibleValids[i].y].OriginalColor();
         }
     }
 
@@ -104,84 +110,81 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
 
         GetValidPositions(_direction, run);
 
-        for (int i = 0; i < valid.Count; i++)
+        for (int i = 0; i < PossibleValids.Count; i++)
         {
-            _gameManager.Tiles[valid[i].x].Tiles[valid[i].y].AttackColor();
+            _gameManager.Tiles[PossibleValids[i].x].Tiles[PossibleValids[i].y].AttackColor();
         }
     }
-    
+
     private void GetValidPositions(Direction direction, bool run)
     {
-        if(_gameManager._CurrentHoveredTile.Index == ValidIndex && run == false)
+        if (_gameManager._CurrentHoveredTile.Index == ValidIndex && run == false)
         {
             return;
         }
 
         ResetColors();
 
-        valid = new List<Vector2Int>();
+        PossibleValids = new List<Vector2Int>();
         ValidIndex = _gameManager._CurrentHoveredTile.Index;
 
         int xLength = _gameManager.Tiles.Length;
         int yLength = _gameManager.Tiles[0].Tiles.Length;
-        Vector2Int attackPos1 = new Vector2Int(ValidIndex.x + 1, ValidIndex.y + 1); // top right
-        Vector2Int attackPos2 = new Vector2Int(ValidIndex.x + 1, ValidIndex.y - 1); // bottom right
-        Vector2Int attackPos3 = new Vector2Int(ValidIndex.x - 1, ValidIndex.y - 1); // bottom left
-        Vector2Int attackPos4 = new Vector2Int(ValidIndex.x - 1, ValidIndex.y + 1); // top left
 
         switch (direction)
         {
             case Direction.Right:
-                valid.Add(attackPos1);
-                valid.Add(attackPos2);
+                for (int i = 0; i < AttackDirectionRight.Count; i++)
+                {
+                    PossibleValids.Add(AttackDirectionRight[i]);
+                }
                 break;
 
             case Direction.Left:
-                valid.Add(attackPos3);
-                valid.Add(attackPos4);
+                for (int i = 0; i < AttackDirectionLeft.Count; i++)
+                {
+                    PossibleValids.Add(AttackDirectionLeft[i]);
+                }
                 break;
 
             case Direction.Up:
-                valid.Add(attackPos4);
-                valid.Add(attackPos1);
+                for (int i = 0; i < AttackDirectionUp.Count; i++)
+                {
+                    PossibleValids.Add(AttackDirectionUp[i]);
+                }
                 break;
 
             case Direction.Down:
-                valid.Add(attackPos3);
-                valid.Add(attackPos2);
+                for (int i = 0; i < AttackDirectionDown.Count; i++)
+                {
+                    PossibleValids.Add(AttackDirectionDown[i]);
+                }
                 break;
 
             default:
                 break;
         }
 
-        for (int i = 0; i < valid.Count; i++)
+        for (int i = 0; i < PossibleValids.Count; i++)
         {
-            if (valid[i].x >= xLength || valid[i].x < 0)
+            if (PossibleValids[i].x >= xLength || PossibleValids[i].x < 0)
             {
-                valid.RemoveAt(i--);
+                PossibleValids.RemoveAt(i--);
                 continue;
             }
 
-            if (valid[i].y >= yLength || valid[i].y < 0)
+            if (PossibleValids[i].y >= yLength || PossibleValids[i].y < 0)
             {
-                valid.RemoveAt(i--);
+                PossibleValids.RemoveAt(i--);
                 continue;
             }
 
-            if (_gameManager.Tiles[valid[i].x].Tiles[valid[i].y].EnemyPathTile == false)
+            if (_gameManager.Tiles[PossibleValids[i].x].Tiles[PossibleValids[i].y].EnemyPathTile == false)
             {
-                valid.RemoveAt(i--);
+                PossibleValids.RemoveAt(i--);
                 continue;
             }
         }
     }
 }
 
-public enum Direction
-{
-    Right,
-    Left,
-    Up,
-    Down
-}

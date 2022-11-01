@@ -85,7 +85,7 @@ public class Tile : MonoBehaviour
         {
             enemiesOnTile.Add(enemyStats);
         }
-        PawnPlacement pawn = other.GetComponent<PawnPlacement>();
+        PiecePlacement pawn = other.GetComponent<PiecePlacement>();
         if (pawn != null)
         {
             _spriteRenderer.color = _highlightColor;
