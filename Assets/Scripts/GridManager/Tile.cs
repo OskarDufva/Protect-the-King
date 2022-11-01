@@ -19,6 +19,7 @@ public class Tile : MonoBehaviour
     
     public GameObject TileTxt;
     public bool EnemyPathTile;
+    [HideInInspector]
     public bool OccupiedTile;
 
     public Vector2Int Index;

@@ -19,6 +19,8 @@ public class GameManager : MonoBehaviour
     public int width;
     public int height;
      
+    public Phases Phases = Phases.InitialPhase;
+
     public Tile _CurrentHoveredTile;
 
     public TileArray[] Tiles;
@@ -59,12 +61,18 @@ public class GameManager : MonoBehaviour
 
     public void NextWave()
     {
-        if (_waveManager.EnemiesAlive <= 0)
+        if (_waveManager.EnemiesAlive <= 0 && Phases == Phases.PreparationPhase)
         {
+            Phases = Phases.ActionPhase;
             _waveManager.SpawnWave(_currentWave);
             WaveTxt();
             _currentWave++;
         }
+    }
+
+    public void ChangePhases(Phases newPhase)
+    {
+        Phases = newPhase;
     }
 
     private void WaveTxt()
@@ -105,4 +113,11 @@ public class GameManager : MonoBehaviour
         }
     }
 
+}
+
+public enum Phases
+{
+    InitialPhase,
+    PreparationPhase,
+    ActionPhase
 }
