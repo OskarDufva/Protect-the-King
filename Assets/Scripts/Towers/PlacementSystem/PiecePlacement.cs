@@ -22,10 +22,9 @@ public class PiecePlacement : MonoBehaviour
         
     }
 
-    public void SpawnTower(bool SpawnKing,int cost)
+    public void SpawnTower(bool SpawnKing,int cost,bool SpawnUpgrade)
     {
-
-        if(SpawnKing == false)
+        if (SpawnKing == false && SpawnUpgrade == false)
         {
             if (_gameManager._CurrentHoveredTile == null)
             {
@@ -36,19 +35,38 @@ public class PiecePlacement : MonoBehaviour
                 print("not valid spot");
                 return;
             }
-
             if (currencySystem.Gold >= Mathf.Abs(cost))
             {
                 currencySystem.ChangeGold(cost);
                 GameObject temp = Instantiate(_gameObject);
                 _gameManager._CurrentHoveredTile.OccupiedTile = true;
                 temp.transform.position = _gameManager._CurrentHoveredTile.transform.position;
+                _gameManager._CurrentHoveredTile.Tower = temp;
             }
             else
             {
                 print("Not enough money!");
             }
-      
+        }
+
+        if(SpawnUpgrade == true && _gameManager._CurrentHoveredTile != null)
+        {
+            if (_gameManager._CurrentHoveredTile.Tower == null)
+            {
+                return;
+            }
+            if (currencySystem.Gold >= Mathf.Abs(cost)) 
+            { 
+                currencySystem.ChangeGold(cost);
+                GameObject temp = Instantiate(_gameObject);
+                temp.transform.position = _gameManager._CurrentHoveredTile.transform.position;
+                Destroy(_gameManager._CurrentHoveredTile.Tower);
+                _gameManager._CurrentHoveredTile.Tower = temp;
+            }
+            else
+            {
+                print("Not enough money!");
+            }
         }
 
         if (SpawnKing == true)

@@ -10,6 +10,7 @@ public class Placement : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, 
 {
     [SerializeField] private Canvas _canvas;
     [SerializeField] private bool _placeKing;
+    [SerializeField] private bool UpgradePiece;
 
     private RectTransform _rectTransform;
     private CanvasGroup _canvasGroup;
@@ -94,7 +95,7 @@ public class Placement : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, 
     {
         _canvasGroup.alpha = 1f;
         _rectTransform.localPosition = Vector3.zero;
-        _placement.SpawnTower(_placeKing,cost);
+        _placement.SpawnTower(_placeKing,cost,UpgradePiece);
         ResetColors();
         _gameManager.ResetColors();
         IsDragging = false;
@@ -126,16 +127,6 @@ public class Placement : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, 
         for (int i = 0; i < PossibleValids.Count; i++)
         {
             _gameManager.Tiles[PossibleValids[i].x].Tiles[PossibleValids[i].y].AttackColor();
-        }
-
-    }
-
-    public void ChangeAttackRight(List<Vector2Int> newList)
-    {
-        AttackDirectionRight.Clear();
-        for (int i = 0; i < newList.Count; i++)
-        {
-            AttackDirectionRight.Add(newList[i]);
         }
 
     }
@@ -207,12 +198,12 @@ public class Placement : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, 
                 PossibleValids.RemoveAt(i--);
                 continue;
             }
-
-            if (_gameManager.Tiles[PossibleValids[i].x].Tiles[PossibleValids[i].y].EnemyPathTile == false)
-            {
-                PossibleValids.RemoveAt(i--);
-                continue;
-            }
+            //this will only show the possible attack on the enemy path
+            //if (_gameManager.Tiles[PossibleValids[i].x].Tiles[PossibleValids[i].y].EnemyPathTile == false)
+            //{
+            //    PossibleValids.RemoveAt(i--);
+            //    continue;
+            //}
         }
     }
 }
