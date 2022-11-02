@@ -8,18 +8,9 @@ public class OpenPanel : MonoBehaviour
     bool active;
 
 
-    public void OpenAndClose()
+    public void OpenAndCloseShop()
     {
-        //if(active == false)
-        //{
-        //    Panel.transform.gameObject.SetActive(true);
-        //    active = true;
-        //}
-        //else
-        //{
-        //    Panel.transform.gameObject.SetActive(false);
-        //    active = false; 
-        //}
+
 
         if (Panel != null)
         {
@@ -30,6 +21,20 @@ public class OpenPanel : MonoBehaviour
 
                 animator.SetBool("Open", !isOpen);
             }
+        }
+    }
+
+    public void OpenAndClosePanel()
+    {
+        if (active == false)
+        {
+            Panel.transform.gameObject.SetActive(true);
+            active = true;
+        }
+        else
+        {
+            Panel.transform.gameObject.SetActive(false);
+            active = false;
         }
     }
 }
