@@ -66,10 +66,10 @@ public class GameManager : MonoBehaviour
     {
         if (_waveManager.EnemiesAlive <= 0 && Phases == Phases.PreparationPhase)
         {
+            print(Phases);
             Phases = Phases.ActionPhase;
 
             StartWaveButton.transform.gameObject.SetActive(false);
-            isActive = false;
 
             _waveManager.SpawnWave(_currentWave);
             WaveTxt();

@@ -215,8 +215,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1601010963}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -550,8 +552,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1362071978}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -700,8 +704,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 606327653}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -850,8 +856,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1821749643}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -1555,8 +1563,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 931153698}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -1705,8 +1715,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1864313805}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -2139,8 +2151,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 526788841}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -2289,8 +2303,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1675193663}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -2439,8 +2455,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1926250518}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -2589,8 +2607,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1336935890}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -2739,8 +2759,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1918329412}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -2902,6 +2924,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _canvas: {fileID: 1251244815}
   _placeKing: 1
+  UpgradePiece: 0
   IsDragging: 0
   AttackDirectionRight: []
   AttackDirectionDown: []
@@ -3014,8 +3037,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 537812806}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -3349,8 +3374,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 2003424965}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -3684,8 +3711,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1849616040}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -3834,8 +3863,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1773789108}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -3984,8 +4015,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 649563346}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -4134,8 +4167,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1972468241}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -4469,8 +4504,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1549444685}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -4989,8 +5026,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 2063994765}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -5139,8 +5178,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1156107238}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -5289,8 +5330,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 932121855}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -5624,8 +5667,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 431620973}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -5959,8 +6004,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 2078994190}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -6109,8 +6156,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1887401605}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -6259,8 +6308,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1690276714}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -7427,8 +7478,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1301802697}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -7762,8 +7815,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1757863543}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -8282,8 +8337,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 387619166}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -8617,8 +8674,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 349484009}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -8835,8 +8894,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1920589245}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -8985,8 +9046,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 546670112}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -9135,8 +9198,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1180830523}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -9470,8 +9535,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 490867851}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -9620,8 +9687,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1660112057}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -10140,8 +10209,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1575957783}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -10290,8 +10361,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 2050430688}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -10625,8 +10698,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 2001923212}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -10775,8 +10850,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 889027513}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -10925,8 +11002,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1308663715}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -11075,8 +11154,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1212791012}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -11522,8 +11603,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1043166533}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -11672,8 +11755,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1256064706}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -12007,8 +12092,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 2022236121}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -12150,7 +12237,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 49.55
+  m_fontSize: 28.4
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -12760,12 +12847,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _canvas: {fileID: 1251244815}
   _placeKing: 0
+  UpgradePiece: 1
   IsDragging: 0
   AttackDirectionRight:
-  - {x: 1, y: 2}
-  - {x: 2, y: 1}
-  - {x: 2, y: -1}
+  - {x: -1, y: -2}
   - {x: 1, y: -2}
+  - {x: 2, y: -1}
+  - {x: 2, y: 1}
+  - {x: 1, y: 2}
+  - {x: -1, y: 2}
+  - {x: -2, y: 1}
+  - {x: -2, y: -1}
   AttackDirectionDown:
   - {x: -2, y: -1}
   - {x: -1, y: -2}
@@ -12782,7 +12874,7 @@ MonoBehaviour:
   - {x: 1, y: 2}
   - {x: 2, y: 1}
   PossibleValids: []
-  cost: 0
+  cost: -150
 --- !u!114 &1194617724
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12938,8 +13030,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1949264718}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -13273,8 +13367,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 683901207}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -13741,6 +13837,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _canvas: {fileID: 1251244815}
   _placeKing: 0
+  UpgradePiece: 0
   IsDragging: 0
   AttackDirectionRight:
   - {x: 1, y: 1}
@@ -13755,7 +13852,7 @@ MonoBehaviour:
   - {x: -1, y: 1}
   - {x: 1, y: 1}
   PossibleValids: []
-  cost: 0
+  cost: -100
 --- !u!1 &1301802697
 GameObject:
   m_ObjectHideFlags: 0
@@ -14218,8 +14315,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 968775153}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -14738,8 +14837,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 122841102}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -15435,18 +15536,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2091108768}
-        m_TargetAssemblyTypeName: Wavemanager, Assembly-CSharp
-        m_MethodName: EnemyDeath
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 1674368250}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: NextWave
@@ -15774,8 +15863,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1938525183}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -15924,8 +16015,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1494190479}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -16074,8 +16167,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 354073104}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -16409,8 +16504,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 232036275}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -17794,8 +17891,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 111434684}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -17937,7 +18036,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 69.95
+  m_fontSize: 37.4
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -18079,8 +18178,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 425793138}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -18414,8 +18515,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 631473406}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -18564,8 +18667,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 170403025}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -19084,8 +19189,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1844628342}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -19234,8 +19341,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1127090587}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -20124,8 +20233,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1382339454}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -20964,8 +21075,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1396335754}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -21768,8 +21881,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1351107280}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -21918,8 +22033,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1634077768}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -22253,8 +22370,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 451474969}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -22901,10 +23020,10 @@ RectTransform:
   m_Father: {fileID: 1251244816}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -671, y: -456.86}
-  m_SizeDelta: {x: -1706.0017, y: -1014.6807}
+  m_AnchorMin: {x: 0.037, y: 0.06652486}
+  m_AnchorMax: {x: 0.21200001, y: 0.16444767}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2023938627
 MonoBehaviour:
@@ -23049,8 +23168,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 16630341}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -23569,8 +23690,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.12941177}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.14117648}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1710126220}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -23861,12 +23984,14 @@ MonoBehaviour:
   EnemiesAlive: 0
   _waveList:
   - WaveName: Wave 1
+    GoldGain: 100
     Enemies:
     - Enemy: {fileID: 2027195559047122639, guid: 39077ec25477c3642a80ddffbe4d83bd, type: 3}
       SpawnDelay: 1
       AmountOfEnemies: 1
       BreakTime: 0
   - WaveName: Wave 1
+    GoldGain: 0
     Enemies:
     - Enemy: {fileID: 2027195559047122639, guid: 39077ec25477c3642a80ddffbe4d83bd, type: 3}
       SpawnDelay: 1
