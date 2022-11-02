@@ -10,7 +10,7 @@ public class CurrencySystem : MonoBehaviour
 
     void Start()
     {
-        //CurrencyIndicator = gameObject.GetComponentInChildren<TMP_Text>();
+        CurrencyIndicator = gameObject.GetComponentInChildren<TMP_Text>();
     }
 
     void Update()
@@ -20,7 +20,7 @@ public class CurrencySystem : MonoBehaviour
 
     void UpdateGoldCounter()
     {
-        //CurrencyIndicator.text = "Gold:" + Gold.ToString();
+        CurrencyIndicator.text = "Gold:" + Gold.ToString();
         print(Gold);
     }
 
