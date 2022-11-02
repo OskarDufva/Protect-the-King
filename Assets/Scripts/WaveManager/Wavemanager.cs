@@ -16,6 +16,11 @@ public class Wavemanager : MonoBehaviour
     private int _goldThisWave;
     private void Start()
     {
+        if (_currencySystem == null)
+        {
+            _currencySystem = FindObjectOfType<CurrencySystem>();
+        }
+
         if(GameManager == null)
         {
             GameManager = FindObjectOfType<GameManager>();
@@ -41,6 +46,7 @@ public class Wavemanager : MonoBehaviour
         EnemiesAlive--;
         if (EnemiesAlive <= 0)
         {
+            print(_currencySystem);
             _currencySystem.ChangeGold(_goldThisWave);
             GameManager.ChangePhases(Phases.PreparationPhase);
             StartWaveButton.transform.gameObject.SetActive(true);
@@ -52,6 +58,7 @@ public class Wavemanager : MonoBehaviour
     {
             var x = WaveSpawn(_waveList[waveCount]);
             EnemyCounter(_waveList[waveCount]);
+            _goldThisWave = _waveList[waveCount].GoldGain;
             StartCoroutine(x);
     }
 
