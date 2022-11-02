@@ -10,13 +10,14 @@ public class Tile : MonoBehaviour
     [SerializeField] private Color _attackHighlightColor;
     [SerializeField] private Color _validPawnPlacementColor;
     [SerializeField] private Color _inValidPawnPlacementColor;
+    [SerializeField] private bool KingSpot;
 
-    private DragDrop _dragDrop;
     private SpriteRenderer _spriteRenderer;
     private Color _originalColor;
     private List<EnemyStats> enemiesOnTile = new List<EnemyStats>();
     private GameManager _gameManager;
     
+    public GameObject Tower;
     public GameObject TileTxt;
     public bool EnemyPathTile;
     [HideInInspector]
