@@ -77,7 +77,7 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     {
         _canvasGroup.alpha = 1f;
         _rectTransform.localPosition = Vector3.zero;
-        _placement.SpawnTower(false,1);
+        _placement.SpawnTower(false,1,false);
         ResetColors();
         _gameManager.ResetColors();
     }

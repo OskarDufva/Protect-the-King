@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿#if (UNITY_EDITOR) 
+
+using UnityEngine;
 using UnityEditor;
 
 [CustomEditor(typeof(PathFinding))]
@@ -18,3 +20,4 @@ public class PathEditor : Editor
 
 
 }
+#endif
