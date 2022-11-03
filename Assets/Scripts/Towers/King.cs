@@ -9,6 +9,13 @@ public class King : MonoBehaviour
     public float _maxHealth;
     public KingHealth healthBar;
 
+    private GameManager _gameManager;
+
+    private void Start()
+    {
+        _gameManager = FindObjectOfType<GameManager>();
+    }
+
     void TakeDamage(float damage)
     {
 
@@ -16,6 +23,7 @@ public class King : MonoBehaviour
         healthBar.UpdateHealthBar();
         if (_health <= 0)
         {
+            _gameManager.GameOver();
             Destroy(gameObject);
         }
         

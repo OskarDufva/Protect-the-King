@@ -23,6 +23,8 @@ public class GameManager : MonoBehaviour
 
     public Tile _CurrentHoveredTile;
 
+    [SerializeField] private GameObject _gameOverUI;
+
     public TileArray[] Tiles;
     [SerializeField]public TileArray[] EmptyTiles;
 
@@ -142,6 +144,11 @@ public class GameManager : MonoBehaviour
                     Tiles[x].Tiles[y].OriginalColor();
             }
         }
+    }
+
+    public void GameOver()
+    {
+        _gameOverUI.SetActive(true);
     }
 
 }
