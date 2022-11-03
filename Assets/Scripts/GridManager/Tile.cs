@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using Unity.VisualScripting;
+using System.Linq;
 
 public class Tile : MonoBehaviour
 {
@@ -136,13 +137,67 @@ public class Tile : MonoBehaviour
             print(_gameManager + "Added");
         }
         _gameManager._CurrentHoveredTile = this;
+        if(_gameManager._CurrentHoveredTile.Tower != null)
+        {
+            ShowAttackSpots();
+        }
     }
 
     private void OnMouseExit()
     {
         _spriteRenderer.color = _originalColor;
         //TileTxt.SetActive(false);
+        if (_gameManager._CurrentHoveredTile.Tower != null)
+        {
+            print("hide");
+            HideAttackSpots();
+        }
         _gameManager._CurrentHoveredTile = null;
+
     }
 
+    private void ShowAttackSpots()
+    {
+        Pawn pawn = _gameManager._CurrentHoveredTile.Tower.GetComponent<Pawn>();
+        if (pawn != null)
+        {
+            List<Vector2Int> tempList = new List<Vector2Int>();
+            for (int i = 0; i < _gameManager._CurrentHoveredTile.Tower.GetComponent<Pawn>()._targetedTiles.Count; i++)
+            {
+                tempList.Add(_gameManager._CurrentHoveredTile.Tower.GetComponent<Pawn>()._targetedTiles[i]);
+            }
+
+            for (int i = 0; i < tempList.Count; i++)
+            {
+                _gameManager.Tiles[tempList[i].x].Tiles[tempList[i].y].AttackColor();
+            }
+        }
+
+        Knight knight = _gameManager._CurrentHoveredTile.Tower.GetComponent<Knight>();
+        if (knight != null)
+        {
+            List<Vector2Int> tempList = new List<Vector2Int>();
+            for (int i = 0; i < _gameManager._CurrentHoveredTile.Tower.GetComponent<Knight>()._targetedTiles.Count; i++)
+            {
+                tempList.Add(_gameManager._CurrentHoveredTile.Tower.GetComponent<Knight>()._targetedTiles[i]);
+            }
+
+            for (int i = 0; i < tempList.Count; i++)
+            {
+                _gameManager.Tiles[tempList[i].x].Tiles[tempList[i].y].AttackColor();
+            }
+        }
+    }
+
+    private void HideAttackSpots()
+    {
+        for (int x = 0; x < _gameManager.Tiles.Length; x++)
+        {
+            for (int y = 0; y < _gameManager.Tiles[0].Tiles.Length; y++)
+            {
+                _gameManager.Tiles[x].Tiles[y].OriginalColor();
+            }
+        }
+
+    }
 }

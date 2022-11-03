@@ -9,15 +9,15 @@ public class Knight : MonoBehaviour
 
     private GameManager _gameManager;
 
-    [SerializeField] private List<Vector2Int> _targetedTiles = new List<Vector2Int>();
-    private KnightPlacement horseplacement;
+    public List<Vector2Int> _targetedTiles = new List<Vector2Int>();
+    private KnightPlacement _knightplacement;
 
     private float timer = 0.0f;
 
     private void Start()
     {
         _gameManager = FindObjectOfType<GameManager>();
-        horseplacement = FindObjectOfType<KnightPlacement>();
+        _knightplacement = FindObjectOfType<KnightPlacement>();
         GetTargetedTiles();
     }
 
@@ -35,9 +35,9 @@ public class Knight : MonoBehaviour
 
     private void GetTargetedTiles()
     {
-        for (int i = 0; i < horseplacement.PossibleValids.Count; i++)
+        for (int i = 0; i < _knightplacement.PossibleValids.Count; i++)
         {
-            _targetedTiles.Add(horseplacement.PossibleValids[i]);
+            _targetedTiles.Add(_knightplacement.PossibleValids[i]);
         }
     }
     private void DealDamage()
