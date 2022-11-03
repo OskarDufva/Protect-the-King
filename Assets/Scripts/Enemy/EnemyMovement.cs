@@ -39,7 +39,7 @@ public class EnemyMovement : MonoBehaviour
         {
             t += Time.deltaTime * moveSpeed;
 
-            transform.position = Vector3.Lerp(startPosition, targetPosition, Mathf.SmoothStep(0.0f, 1.5f, t));
+            transform.position = Vector3.Lerp(startPosition, targetPosition, Mathf.SmoothStep(0.0f, 1.0f, t));
 
             await Task.Yield();
         }

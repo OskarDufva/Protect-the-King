@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Knight : MonoBehaviour
+public class Bishop : MonoBehaviour
 {
     [SerializeField] private float _damage;
     [SerializeField] private float _attackSpeed;
@@ -10,14 +10,14 @@ public class Knight : MonoBehaviour
     private GameManager _gameManager;
 
     public List<Vector2Int> _targetedTiles = new List<Vector2Int>();
-    private KnightPlacement _knightplacement;
+    private BishopPlacement _bishopplacement;
 
     private float timer = 0.0f;
 
     private void Start()
     {
         _gameManager = FindObjectOfType<GameManager>();
-        _knightplacement = FindObjectOfType<KnightPlacement>();
+        _bishopplacement = FindObjectOfType<BishopPlacement>();
         GetTargetedTiles();
     }
 
@@ -35,9 +35,9 @@ public class Knight : MonoBehaviour
 
     private void GetTargetedTiles()
     {
-        for (int i = 0; i < _knightplacement.PossibleValids.Count; i++)
+        for (int i = 0; i < _bishopplacement.PossibleValids.Count; i++)
         {
-            _targetedTiles.Add(_knightplacement.PossibleValids[i]);
+            _targetedTiles.Add(_bishopplacement.PossibleValids[i]);
         }
     }
     private void DealDamage()
@@ -46,6 +46,6 @@ public class Knight : MonoBehaviour
         {
             _gameManager.Tiles[_targetedTiles[i].x].Tiles[_targetedTiles[i].y].DealDamage(_damage);
         }
-        
+
     }
 }

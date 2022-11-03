@@ -21,7 +21,7 @@ public class CurrencySystem : MonoBehaviour
     void UpdateGoldCounter()
     {
         CurrencyIndicator.text = "Gold:" + Gold.ToString();
-        print(Gold);
+        
     }
 
     // function for updating the amount of gold you have and making sure that it is not possible to have a negative amount.
@@ -32,7 +32,7 @@ public class CurrencySystem : MonoBehaviour
         {
             Gold = 0;
         }
-
+        print(Gold);
         UpdateGoldCounter();
     }
 

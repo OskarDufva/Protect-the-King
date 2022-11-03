@@ -9,7 +9,7 @@ public class Pawn : MonoBehaviour
 
     private GameManager _gameManager;
 
-    [SerializeField] private List<Vector2Int> _targetedTiles = new List<Vector2Int>();
+    public List<Vector2Int> _targetedTiles = new List<Vector2Int>();
     private PawnPlacement pawnplacement;
 
     private float timer = 0.0f;
