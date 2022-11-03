@@ -187,6 +187,36 @@ public class Tile : MonoBehaviour
                 _gameManager.Tiles[tempList[i].x].Tiles[tempList[i].y].AttackColor();
             }
         }
+
+        Rook rook = _gameManager._CurrentHoveredTile.Tower.GetComponent<Rook>();
+        if(rook != null)
+        {
+            List<Vector2Int> tempList = new List<Vector2Int>();
+            for (int i = 0; i < _gameManager._CurrentHoveredTile.Tower.GetComponent<Rook>()._targetedTiles.Count; i++)
+            {
+                tempList.Add(_gameManager._CurrentHoveredTile.Tower.GetComponent<Rook>()._targetedTiles[i]);
+            }
+
+            for (int i = 0; i < tempList.Count; i++)
+            {
+                _gameManager.Tiles[tempList[i].x].Tiles[tempList[i].y].AttackColor();
+            }
+        }
+
+        Bishop bishop = _gameManager._CurrentHoveredTile.Tower.GetComponent<Bishop>();
+        if (bishop != null)
+        {
+            List<Vector2Int> tempList = new List<Vector2Int>();
+            for (int i = 0; i < _gameManager._CurrentHoveredTile.Tower.GetComponent<Bishop>()._targetedTiles.Count; i++)
+            {
+                tempList.Add(_gameManager._CurrentHoveredTile.Tower.GetComponent<Bishop>()._targetedTiles[i]);
+            }
+
+            for (int i = 0; i < tempList.Count; i++)
+            {
+                _gameManager.Tiles[tempList[i].x].Tiles[tempList[i].y].AttackColor();
+            }
+        }
     }
 
     private void HideAttackSpots()

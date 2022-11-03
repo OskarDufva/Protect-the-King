@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2027195559047122626}
   - component: {fileID: 2027195559047122636}
+  - component: {fileID: -5540776247091826795}
   m_Layer: 6
   m_Name: Rook
   m_TagString: Untagged
@@ -84,6 +85,21 @@ SpriteMask:
   m_BackSortingOrder: 0
   m_IsCustomRangeActive: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-5540776247091826795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027195559047122639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30b51467ede7aec4787a7a00167db3b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _damage: 0
+  _attackSpeed: 0
+  _targetedTiles: []
 --- !u!1 &2027195559372920581
 GameObject:
   m_ObjectHideFlags: 0
