@@ -55,6 +55,12 @@ public class PiecePlacement : MonoBehaviour
             {
                 return;
             }
+            Pawn pawn = _gameManager._CurrentHoveredTile.Tower.GetComponent<Pawn>();
+            print(pawn);
+            if (pawn == null)
+            {
+                return;
+            }
             if (currencySystem.Gold >= Mathf.Abs(cost)) 
             { 
                 currencySystem.ChangeGold(cost);
