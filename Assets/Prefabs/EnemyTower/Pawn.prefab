@@ -129,7 +129,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _speed: 0
   _wavemanager: {fileID: 0}
-  startHealth: 0
+  startHealth: 100
   Damage: 10
   Cost: 0
   healthBar: {fileID: 9175575202238474572}
