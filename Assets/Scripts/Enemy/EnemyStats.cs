@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class EnemyStats : MonoBehaviour
 {
-    [SerializeField] private float _speed;
-
-    [SerializeField]private Wavemanager _wavemanager;
+    [SerializeField] private Wavemanager _wavemanager;
+    [SerializeField] private SpriteRenderer _spriterender;
 
     public float Health;
     public int Damage;
@@ -15,12 +14,15 @@ public class EnemyStats : MonoBehaviour
     private void Start()
     {
         _wavemanager = FindObjectOfType<Wavemanager>();
+        print(_spriterender);
         if (_wavemanager == null)
         {
             print("no wavemanager found!");
             Destroy(gameObject);
         }
     }
+
+
     public void TakeDamage(float damage)
     {
         Health -= damage;
@@ -29,5 +31,7 @@ public class EnemyStats : MonoBehaviour
             _wavemanager.EnemyDeath();
             Destroy(gameObject);
         }
+        _spriterender.color = Color.red;
+        
     }
 }

@@ -128,6 +128,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _speed: 0
   _wavemanager: {fileID: 0}
+  _spriterender: {fileID: 2027195559372920699}
   Health: 100
   Damage: 10
   Cost: 0
