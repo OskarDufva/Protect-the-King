@@ -13,6 +13,9 @@ public class Wavemanager : MonoBehaviour
    
     CurrencySystem _currencySystem;
     private int _goldThisWave;
+    private float Boost;
+
+
     private void Start()
     {
         if (_currencySystem == null)
@@ -56,17 +59,22 @@ public class Wavemanager : MonoBehaviour
             var x = WaveSpawn(_waveList[waveCount]);
             EnemyCounter(_waveList[waveCount]);
             _goldThisWave = _waveList[waveCount].GoldGain;
+            Boost = _waveList[waveCount].EnemyBoost;
             StartCoroutine(x);
     }
 
     IEnumerator WaveSpawn(WaveList EnemyData)
     {
+        GameObject Enemy;
+        EnemyStats stats;
         for (int i = 0; i < EnemyData.Enemies.Length; i++)
         {
             for (int g = 0; g < EnemyData.Enemies[i].AmountOfEnemies; g++)
             {
                 yield return new WaitForSeconds(EnemyData.Enemies[i].SpawnDelay);
-                Instantiate(EnemyData.Enemies[i].Enemy, SpawnPoint.transform.position, Quaternion.identity);
+                Enemy = Instantiate(EnemyData.Enemies[i].Enemy, SpawnPoint.transform.position, Quaternion.identity);
+                stats = Enemy.GetComponent<EnemyStats>();
+                stats.Health *= Boost;
             }
             yield return new WaitForSeconds(EnemyData.Enemies[i].BreakTime);
             

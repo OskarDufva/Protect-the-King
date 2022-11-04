@@ -12669,10 +12669,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30.05
-  m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 32767
   m_fontStyle: 0
@@ -12719,6 +12717,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1153401233}
   m_CullTransparentMesh: 1
+  m_fontSize: 30.05
+  m_fontSizeBase: 24
 --- !u!1 &1156107238
 GameObject:
   m_ObjectHideFlags: 0
@@ -12817,8 +12817,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 4.1
-  m_fontSizeBase: 36
+  m_fontSize: 30.05
+  m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 0
@@ -18769,7 +18769,6 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 42.4
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -24718,6 +24717,7 @@ MonoBehaviour:
   _waveList:
   - WaveName: Wave 1
     GoldGain: 100
+    EnemyBoost: 1
     Enemies:
     - Enemy: {fileID: 2027195559047122639, guid: 39077ec25477c3642a80ddffbe4d83bd, type: 3}
       SpawnDelay: 1
@@ -24725,6 +24725,7 @@ MonoBehaviour:
       BreakTime: 0
   - WaveName: Wave 1
     GoldGain: 0
+    EnemyBoost: 2
     Enemies:
     - Enemy: {fileID: 2027195559047122639, guid: 39077ec25477c3642a80ddffbe4d83bd, type: 3}
       SpawnDelay: 1
