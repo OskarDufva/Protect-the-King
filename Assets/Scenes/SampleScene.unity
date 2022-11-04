@@ -12670,6 +12670,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1153401233}
   m_CullTransparentMesh: 1
+  m_fontSize: 30.05
+  m_fontSizeBase: 24
 --- !u!1 &1156107238
 GameObject:
   m_ObjectHideFlags: 0
