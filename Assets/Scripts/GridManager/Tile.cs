@@ -118,7 +118,7 @@ public class Tile : MonoBehaviour
             for (int i = 0; i < enemiesOnTile.Count; i++)
             {
                 enemiesOnTile[i].TakeDamage(damage);
-                if (enemiesOnTile[i].Health <= 0)
+                if (enemiesOnTile[i].startHealth <= 0)
                 {
                     enemiesOnTile.RemoveRange(i--, 1);
                 }

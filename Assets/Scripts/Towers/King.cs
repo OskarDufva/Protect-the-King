@@ -35,7 +35,7 @@ public class King : MonoBehaviour
         {
             print(enemyStats);
             TakeDamage(enemyStats.Damage);
-            enemyStats.TakeDamage(enemyStats.Health);            
+            enemyStats.TakeDamage(enemyStats.startHealth);            
         }        
     }
 }
