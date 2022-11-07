@@ -4,6 +4,7 @@ using UnityEngine;
 using TMPro;
 using System;
 using System.Linq;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -149,6 +150,16 @@ public class GameManager : MonoBehaviour
     public void GameOver()
     {
         _gameOverUI.SetActive(true);
+    }
+
+    public void Restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void MaineMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 
 }
