@@ -74,7 +74,7 @@ public class Wavemanager : MonoBehaviour
                 yield return new WaitForSeconds(EnemyData.Enemies[i].SpawnDelay);
                 Enemy = Instantiate(EnemyData.Enemies[i].Enemy, SpawnPoint.transform.position, Quaternion.identity);
                 stats = Enemy.GetComponent<EnemyStats>();
-                stats.Health *= Boost;
+                stats.startHealth *= Boost;
             }
             yield return new WaitForSeconds(EnemyData.Enemies[i].BreakTime);
             
