@@ -14,9 +14,17 @@ public class EnemyStats : MonoBehaviour
 
     public Image healthBar;
 
+    private CurrencySystem _currencySystem;
+
+    private King _king;
+
+    private bool _touchKing;
+
     private void Start()
     {
         _wavemanager = FindObjectOfType<Wavemanager>();
+
+        _currencySystem = FindObjectOfType<CurrencySystem>();
 
         health = startHealth;
 
@@ -27,6 +35,14 @@ public class EnemyStats : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if (Collider.FindObjectOfType<King>())
+        {
+            _touchKing = true;
+        }
+    }
+
 
     public void TakeDamage(float damage)
     {
@@ -34,11 +50,16 @@ public class EnemyStats : MonoBehaviour
 
         healthBar.fillAmount = health / startHealth;
 
-        if (health <= 0)
+        if (health <= 0 && _touchKing == true)
         {
             _wavemanager.EnemyDeath();
-
             Destroy(gameObject);
-        }        
+        }
+        else
+        {
+            _wavemanager.EnemyDeath();
+            _currencySystem.GoldUponDeath(15);
+            Destroy(gameObject);
+        }
     }
 }

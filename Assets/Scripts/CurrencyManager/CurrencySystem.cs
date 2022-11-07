@@ -36,6 +36,11 @@ public class CurrencySystem : MonoBehaviour
         UpdateGoldCounter();
     }
 
+    public void GoldUponDeath(int amount)
+    {
+        Gold += amount;
+    }
+
     public int GetGold()
     {
         return Gold;
