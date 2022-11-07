@@ -11946,6 +11946,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1245355724 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3085255811721988630, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+  m_PrefabInstance: {fileID: 20448187873168712}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1245355730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245355724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39c82d2662e85b94393ddb54a9849619, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _canvas: {fileID: 1305764817589698379}
+  IsDragging: 0
+  valid: []
 --- !u!1 &1273141138
 GameObject:
   m_ObjectHideFlags: 0
@@ -22333,6 +22353,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 20448187654650507, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_Name
+      value: KnightPanel
+      objectReference: {fileID: 0}
     - target: {fileID: 20448187654650508, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -22373,6 +22397,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 288552440117524214, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_Name
+      value: PawnPanel
+      objectReference: {fileID: 0}
     - target: {fileID: 288552440185561205, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -22393,6 +22421,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 288552440185561210, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_Name
+      value: RookPanel
+      objectReference: {fileID: 0}
     - target: {fileID: 288552440283718801, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -22412,6 +22444,10 @@ PrefabInstance:
     - target: {fileID: 288552440283718801, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 288552440283718806, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_Name
+      value: BishopPanel
       objectReference: {fileID: 0}
     - target: {fileID: 1253189608760539326, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
       propertyPath: m_AnchorMax.x
@@ -22541,6 +22577,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1674368250}
+    - target: {fileID: 4165819186492065817, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_Name
+      value: SellTxt
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
 --- !u!114 &1305764816971501250 stripped
@@ -22568,5 +22608,10 @@ MonoBehaviour:
 --- !u!1 &1305764817473947385 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1593753945473521220, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+  m_PrefabInstance: {fileID: 20448187873168712}
+  m_PrefabAsset: {fileID: 0}
+--- !u!223 &1305764817589698379 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 1593753945322139638, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
   m_PrefabInstance: {fileID: 20448187873168712}
   m_PrefabAsset: {fileID: 0}
