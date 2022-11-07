@@ -5,9 +5,7 @@ using UnityEngine.UI;
 
 public class EnemyStats : MonoBehaviour
 {
-    [SerializeField] private float _speed;
-
-    [SerializeField]private Wavemanager _wavemanager;
+    [SerializeField] private Wavemanager _wavemanager;
 
     public float startHealth;
     private float health;
@@ -28,6 +26,8 @@ public class EnemyStats : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+
     public void TakeDamage(float damage)
     {
         health -= damage;
@@ -37,7 +37,8 @@ public class EnemyStats : MonoBehaviour
         if (health <= 0)
         {
             _wavemanager.EnemyDeath();
+
             Destroy(gameObject);
-        }
+        }        
     }
 }

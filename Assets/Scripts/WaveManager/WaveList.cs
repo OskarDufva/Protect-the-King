@@ -7,6 +7,7 @@ public struct WaveList
 {
     public string WaveName;
     public int GoldGain;
+    public float EnemyBoost;
     public EnemyData[] Enemies;
     //public float rate;
 }

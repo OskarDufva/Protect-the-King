@@ -217,6 +217,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1273141138}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -367,6 +369,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 820915102}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -887,6 +891,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1593763935}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -1037,6 +1043,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 448404598}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -1187,6 +1195,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1910912383}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -1337,6 +1347,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1376386485}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -1487,6 +1499,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 43678008}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -1637,6 +1651,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1070846268}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -2157,6 +2173,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1618959355}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -2307,6 +2325,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 2142460804}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -2642,6 +2662,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1454372984}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -2977,6 +2999,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1212980041}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -3127,6 +3151,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1668288014}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -3647,6 +3673,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 164257287}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -3797,6 +3825,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1656948087}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -4132,6 +4162,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1931830088}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -4652,6 +4684,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 71237709}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -4802,6 +4836,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 2141553889}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -5054,6 +5090,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -5096,7 +5133,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 4.4
+  orthographic size: 5.26
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -5127,6 +5164,39 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519420033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
 --- !u!1 &523063350
 GameObject:
   m_ObjectHideFlags: 0
@@ -5552,6 +5622,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1906261005}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -5702,6 +5774,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1568662481}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -6407,6 +6481,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1477597546}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -6557,6 +6633,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 523063350}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -6892,6 +6970,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 360006485}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -7412,6 +7492,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 727480591}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -7932,6 +8014,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 298083303}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -8082,6 +8166,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1316513036}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -8232,6 +8318,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1283300567}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -9190,6 +9278,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1701735147}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -9340,6 +9430,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 2040785291}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -9490,6 +9582,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 505546463}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -9640,6 +9734,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1860919683}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -9790,6 +9886,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1431026472}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -9940,6 +10038,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1461292840}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -10090,6 +10190,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 458862926}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -10240,6 +10342,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 243943936}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -10687,6 +10791,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 2130942332}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -10837,6 +10943,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 816703253}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -10987,6 +11095,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 2093051914}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -11137,6 +11247,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 739408957}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -11287,6 +11399,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 2135522855}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -11437,6 +11551,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 312184120}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -11772,6 +11888,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1490601944}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -12477,6 +12595,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 881136245}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -12812,6 +12932,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 2092911551}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -13332,6 +13454,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 614382745}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -13482,6 +13606,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 234216423}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -14557,6 +14683,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 711525126}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -14892,6 +15020,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1361098810}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -15597,6 +15727,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1552641713}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -16487,6 +16619,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1285036199}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -16637,6 +16771,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 692674729}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -17157,6 +17293,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1417921488}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -17442,12 +17580,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d880538e656e34b439fb8c2139036ba8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speedTxt: {fileID: 1593753944518325288}
-  _waveTxt: {fileID: 1593753944315316547}
+  _speedTxt: {fileID: 1305764816971501250}
+  _waveTxt: {fileID: 1305764817308791721}
   width: 8
   height: 8
   Phases: 0
   _CurrentHoveredTile: {fileID: 0}
+  _gameOverUI: {fileID: 0}
   Tiles:
   - Tiles:
     - {fileID: 1137213890}
@@ -17522,7 +17661,7 @@ MonoBehaviour:
     - {fileID: 2115651614}
     - {fileID: 243714583}
   EmptyTiles: []
-  StartWaveButton: {fileID: 1593753943942544403}
+  StartWaveButton: {fileID: 1305764817473947385}
 --- !u!1 &1701735147
 GameObject:
   m_ObjectHideFlags: 0
@@ -17802,6 +17941,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 146729399}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -17952,6 +18093,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1874596805}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -18102,6 +18245,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 623880859}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -18437,6 +18582,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1474233242}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -18772,6 +18919,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1572634920}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -19107,6 +19256,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 605994693}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -19257,6 +19408,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 2073047969}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -19962,6 +20115,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1883825193}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -20112,6 +20267,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 719354929}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -20588,6 +20745,7 @@ MonoBehaviour:
   _waveList:
   - WaveName: Wave 1
     GoldGain: 0
+    EnemyBoost: 0
     Enemies:
     - Enemy: {fileID: 2027195559047122639, guid: 39077ec25477c3642a80ddffbe4d83bd, type: 3}
       SpawnDelay: 1
@@ -20595,12 +20753,13 @@ MonoBehaviour:
       BreakTime: 0
   - WaveName: Wave 1
     GoldGain: 0
+    EnemyBoost: 0
     Enemies:
     - Enemy: {fileID: 2027195559047122639, guid: 39077ec25477c3642a80ddffbe4d83bd, type: 3}
       SpawnDelay: 1
       AmountOfEnemies: 30
       BreakTime: 0
-  StartWaveButton: {fileID: 1593753943942544403}
+  StartWaveButton: {fileID: 1305764817473947385}
 --- !u!1 &2092911551
 GameObject:
   m_ObjectHideFlags: 0
@@ -21065,6 +21224,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 849729538}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -21215,6 +21376,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1449701038}
   EnemyPathTile: 1
   OccupiedTile: 0
@@ -21365,6 +21528,8 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
+  KingSpot: 0
+  Tower: {fileID: 0}
   TileTxt: {fileID: 1421156667}
   EnemyPathTile: 0
   OccupiedTile: 0
@@ -22161,135 +22326,247 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &1593753943942544403 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8866906848228926956, guid: b3e895e28bdc80d4d9eb5ae28848fab4, type: 3}
-  m_PrefabInstance: {fileID: 7859821522812885503}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1593753944315316547 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8866906847528980668, guid: b3e895e28bdc80d4d9eb5ae28848fab4, type: 3}
-  m_PrefabInstance: {fileID: 7859821522812885503}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1593753944518325288 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8866906847729102295, guid: b3e895e28bdc80d4d9eb5ae28848fab4, type: 3}
-  m_PrefabInstance: {fileID: 7859821522812885503}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1001 &7859821522812885503
+--- !u!1001 &20448187873168712
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 8866906848078847041, guid: b3e895e28bdc80d4d9eb5ae28848fab4, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8866906848078847041, guid: b3e895e28bdc80d4d9eb5ae28848fab4, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8866906848078847041, guid: b3e895e28bdc80d4d9eb5ae28848fab4, type: 3}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 8866906848078847041, guid: b3e895e28bdc80d4d9eb5ae28848fab4, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8866906848078847041, guid: b3e895e28bdc80d4d9eb5ae28848fab4, type: 3}
+    - target: {fileID: 20448187654650508, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8866906848078847041, guid: b3e895e28bdc80d4d9eb5ae28848fab4, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8866906848078847041, guid: b3e895e28bdc80d4d9eb5ae28848fab4, type: 3}
+    - target: {fileID: 20448187654650508, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
       propertyPath: m_AnchorMin.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8866906848078847041, guid: b3e895e28bdc80d4d9eb5ae28848fab4, type: 3}
+    - target: {fileID: 20448187654650508, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
       propertyPath: m_SizeDelta.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8866906848078847041, guid: b3e895e28bdc80d4d9eb5ae28848fab4, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8866906848078847041, guid: b3e895e28bdc80d4d9eb5ae28848fab4, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8866906848078847041, guid: b3e895e28bdc80d4d9eb5ae28848fab4, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8866906848078847041, guid: b3e895e28bdc80d4d9eb5ae28848fab4, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8866906848078847041, guid: b3e895e28bdc80d4d9eb5ae28848fab4, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8866906848078847041, guid: b3e895e28bdc80d4d9eb5ae28848fab4, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8866906848078847041, guid: b3e895e28bdc80d4d9eb5ae28848fab4, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8866906848078847041, guid: b3e895e28bdc80d4d9eb5ae28848fab4, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8866906848078847041, guid: b3e895e28bdc80d4d9eb5ae28848fab4, type: 3}
+    - target: {fileID: 20448187654650508, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8866906848078847041, guid: b3e895e28bdc80d4d9eb5ae28848fab4, type: 3}
+    - target: {fileID: 20448187654650508, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8866906848078847041, guid: b3e895e28bdc80d4d9eb5ae28848fab4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
+    - target: {fileID: 288552440117524209, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8866906848078847041, guid: b3e895e28bdc80d4d9eb5ae28848fab4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
+    - target: {fileID: 288552440117524209, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_AnchorMin.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8866906848078847041, guid: b3e895e28bdc80d4d9eb5ae28848fab4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
+    - target: {fileID: 288552440117524209, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_SizeDelta.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8866906848078847069, guid: b3e895e28bdc80d4d9eb5ae28848fab4, type: 3}
-      propertyPath: m_Name
-      value: HUD
+    - target: {fileID: 288552440117524209, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8866906848228926958, guid: b3e895e28bdc80d4d9eb5ae28848fab4, type: 3}
+    - target: {fileID: 288552440117524209, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 288552440185561205, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 288552440185561205, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 288552440185561205, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 288552440185561205, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 288552440185561205, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 288552440283718801, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 288552440283718801, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 288552440283718801, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 288552440283718801, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 288552440283718801, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253189608760539326, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.08722227
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253189608760539326, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.3322794
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253189608760539326, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.019493451
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253189608760539326, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.192
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253189608760539326, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253189608760539326, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253189608760539326, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253189608760539326, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593753944595456069, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1674368250}
-    - target: {fileID: 8866906849493324781, guid: b3e895e28bdc80d4d9eb5ae28848fab4, type: 3}
+    - target: {fileID: 1593753945322139625, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593753945322139625, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593753945322139625, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593753945322139625, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593753945322139625, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593753945322139625, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593753945322139625, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593753945322139625, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593753945322139625, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593753945322139625, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593753945322139625, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593753945322139625, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593753945322139625, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593753945322139625, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593753945322139625, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593753945322139625, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593753945322139625, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593753945322139625, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593753945322139625, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593753945322139625, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593753945322139625, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593753945322139637, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_Name
+      value: HUD
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593753945473521222, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1674368248}
+      objectReference: {fileID: 1674368250}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b3e895e28bdc80d4d9eb5ae28848fab4, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+--- !u!114 &1305764816971501250 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1593753944900066943, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+  m_PrefabInstance: {fileID: 20448187873168712}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1305764817308791721 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1593753944697070356, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+  m_PrefabInstance: {fileID: 20448187873168712}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1305764817473947385 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1593753945473521220, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+  m_PrefabInstance: {fileID: 20448187873168712}
+  m_PrefabAsset: {fileID: 0}
