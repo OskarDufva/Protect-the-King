@@ -4,6 +4,7 @@ using UnityEngine;
 using TMPro;
 using System;
 using System.Linq;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -13,7 +14,7 @@ public class GameManager : MonoBehaviour
     private Wavemanager _waveManager;
     private int _currentWave = 0;
     private int _gameSpeed = 1;
-    private DragDrop _dragDrop;
+    private SellPieces _dragDrop;
 
     [HideInInspector]
     public int width;
@@ -34,7 +35,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         _waveManager = FindObjectOfType<Wavemanager>();
-        _dragDrop = FindObjectOfType<DragDrop>();
+        _dragDrop = FindObjectOfType<SellPieces>();
         WaveTxt();
     }
     public void GameSpeedChange()
@@ -149,6 +150,16 @@ public class GameManager : MonoBehaviour
     public void GameOver()
     {
         _gameOverUI.SetActive(true);
+    }
+
+    public void Restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void MaineMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 
 }

@@ -207,4 +207,11 @@ public class Placement : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, 
         }
     }
 }
+public enum Direction
+{
+    Right,
+    Left,
+    Up,
+    Down,
+}
 

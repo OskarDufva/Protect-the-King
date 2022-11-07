@@ -14,6 +14,8 @@ public class Rook : MonoBehaviour
 
     private float timer = 0.0f;
 
+    public int SellGold;
+
     private void Start()
     {
         _gameManager = FindObjectOfType<GameManager>();
