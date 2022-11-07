@@ -16,8 +16,6 @@ public class EnemyStats : MonoBehaviour
 
     private CurrencySystem _currencySystem;
 
-    private King _king;
-
     private bool _touchKing;
 
     private void Start()
