@@ -149,7 +149,6 @@ public class Tile : MonoBehaviour
         //TileTxt.SetActive(false);
         if (_gameManager._CurrentHoveredTile.Tower != null)
         {
-            print("hide");
             HideAttackSpots();
         }
         _gameManager._CurrentHoveredTile = null;
