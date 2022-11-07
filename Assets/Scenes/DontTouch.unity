@@ -20205,7 +20205,7 @@ MonoBehaviour:
   EnemiesAlive: 0
   _waveList:
   - WaveName: Wave 1
-    GoldGain: 200
+    GoldGain: 1000000
     EnemyBoost: 1
     Enemies:
     - Enemy: {fileID: 2027195559047122639, guid: 39077ec25477c3642a80ddffbe4d83bd, type: 3}
@@ -20213,7 +20213,7 @@ MonoBehaviour:
       AmountOfEnemies: 3
       BreakTime: 0
   - WaveName: Wave 1
-    GoldGain: 500
+    GoldGain: 2147483647
     EnemyBoost: 1
     Enemies:
     - Enemy: {fileID: 2027195559047122639, guid: 39077ec25477c3642a80ddffbe4d83bd, type: 3}
