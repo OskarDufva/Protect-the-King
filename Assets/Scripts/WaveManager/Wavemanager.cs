@@ -8,10 +8,8 @@ public class Wavemanager : MonoBehaviour
     public GameManager GameManager;
     public int EnemiesAlive = 0;
     public WaveList[] _waveList;
-
-    public GameObject StartWaveButton;
    
-    CurrencySystem _currencySystem;
+    private CurrencySystem _currencySystem;
     private int _goldThisWave;
     private float Boost;
 
@@ -33,20 +31,12 @@ public class Wavemanager : MonoBehaviour
     {
         return _waveList.Length;
     }
-    //counts every enemy we spawn to keep track of the spanwed enemies.
-    public void EnemyCounter(WaveList EnemyData)
-    {
-        for (int i = 0; i < EnemyData.Enemies.Length; i++)
-        {
-            for (int g = 0; g < EnemyData.Enemies[i].AmountOfEnemies; g++)
-                EnemiesAlive++;
-        }
-    }
+
     //Call this everytime an enemy dies to reduce the counter so we know when all enemies have died
     public void EnemyDeath()
     {
-        EnemiesAlive--;
-        if (EnemiesAlive <= 0)
+        int enemy = FindObjectsOfType<EnemyStats>().Length;
+        if (enemy <= 1)
         {
             _currencySystem.ChangeGold(_goldThisWave);
             GameManager.ChangePhases(Phases.PreparationPhase);
@@ -57,7 +47,6 @@ public class Wavemanager : MonoBehaviour
     public void SpawnWave(int waveCount)
     {
             var x = WaveSpawn(_waveList[waveCount]);
-            EnemyCounter(_waveList[waveCount]);
             _goldThisWave = _waveList[waveCount].GoldGain;
             Boost = _waveList[waveCount].EnemyBoost;
             StartCoroutine(x);
