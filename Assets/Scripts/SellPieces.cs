@@ -16,7 +16,7 @@ public class SellPieces : MonoBehaviour, IPointerDownHandler, IBeginDragHandler,
 
     public bool IsDragging = false;
 
-    public List<Vector2Int> valid = new List<Vector2Int>();
+    private List<Vector2Int> valid = new List<Vector2Int>();
     private Vector2Int ValidIndex;
     private CurrencySystem _currencySystem;
 
@@ -32,14 +32,12 @@ public class SellPieces : MonoBehaviour, IPointerDownHandler, IBeginDragHandler,
     public void OnBeginDrag(PointerEventData eventData)
     {
         _canvasGroup.alpha = 0.6f;
-        //_gameManager.HighlightUnoccupiedTiles(false);
         DisplayAttack();
     }
 
     public void OnDrag(PointerEventData eventData)
     {
         _rectTransform.anchoredPosition += eventData.delta / _canvas.scaleFactor;
-        //_gameManager.HighlightUnoccupiedTiles(false);
         DisplayAttack();
     }
 
