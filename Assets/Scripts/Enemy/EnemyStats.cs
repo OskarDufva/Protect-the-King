@@ -10,13 +10,11 @@ public class EnemyStats : MonoBehaviour
     public float startHealth;
     private float health;
     public int Damage;
-    public int Cost;
+    public int GoldGained;
 
     public Image healthBar;
 
     private CurrencySystem _currencySystem;
-
-    private King _king;
 
     private bool _touchKing;
 
@@ -58,7 +56,7 @@ public class EnemyStats : MonoBehaviour
         else
         {
             _wavemanager.EnemyDeath();
-            _currencySystem.GoldUponDeath(15);
+            _currencySystem.ChangeGold(GoldGained);
             Destroy(gameObject);
         }
     }
