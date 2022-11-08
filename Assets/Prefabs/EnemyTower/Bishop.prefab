@@ -307,7 +307,7 @@ MonoBehaviour:
   _wavemanager: {fileID: 0}
   startHealth: 100
   Damage: 10
-  Cost: 0
+  GoldGained: 25
   healthBar: {fileID: 5241565129241401640}
 --- !u!1 &2027195559372920581
 GameObject:
