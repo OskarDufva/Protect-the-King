@@ -12,7 +12,7 @@ public class GameModeScript : MonoBehaviour
     
     public void StartTutorial()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("UX-Design");
     }
 
     public void StartCampaign()
