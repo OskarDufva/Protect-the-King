@@ -58,7 +58,6 @@ public class Wavemanager : MonoBehaviour
             for (int y = 0; y < _waveList[waveCount].Enemies[i].AmountOfEnemies; y++)
             {
                 _enemiesInWave++;
-                print(_enemiesInWave);
             }
         }
     }
