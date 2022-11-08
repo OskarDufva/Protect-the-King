@@ -82,7 +82,7 @@ public class PiecePlacement : MonoBehaviour
             {
                 return;
             }
-            if(_gameManager._CurrentHoveredTile.EnemyPathTile == false)
+            if(_gameManager._CurrentHoveredTile.KingSpot == false)
             {
                 return;
             }
@@ -91,6 +91,7 @@ public class PiecePlacement : MonoBehaviour
             _gameManager._CurrentHoveredTile.OccupiedTile = true;
             _gameManager.ChangePhases(Phases.PreparationPhase);
             temp.transform.position = _gameManager._CurrentHoveredTile.transform.position;
+            _gameManager.GoldBoost = _gameManager._CurrentHoveredTile._kingSpotBoost;
         }
 
     }
