@@ -26,7 +26,6 @@ public class Pawn : MonoBehaviour
     private void Update()
     {
         timer += Time.deltaTime;
-
         if (timer > _attackSpeed)
         {
             DealDamage();

@@ -11,7 +11,7 @@ public class Tile : MonoBehaviour
     [SerializeField] private Color _attackHighlightColor;
     [SerializeField] private Color _validPawnPlacementColor;
     [SerializeField] private Color _inValidPawnPlacementColor;
-    [SerializeField] private bool KingSpot;
+    [SerializeField] private GameObject _kingBoostText;
 
     private SpriteRenderer _spriteRenderer;
     private Color _originalColor;
@@ -21,6 +21,8 @@ public class Tile : MonoBehaviour
     public GameObject Tower;
     public GameObject TileTxt;
     public bool EnemyPathTile;
+    public bool KingSpot;
+    public float _kingSpotBoost;
     [HideInInspector]
     public bool OccupiedTile;
 
@@ -33,6 +35,7 @@ public class Tile : MonoBehaviour
         _spriteRenderer = GetComponent<SpriteRenderer>();
         _originalColor = _spriteRenderer.color;
         _gameManager = FindObjectOfType<GameManager>();
+        _kingBoostText.GetComponent<TextMeshPro>().text = "Gold " + _kingSpotBoost.ToString() + "X";
     }
 
     public void ChangeColor(Color color)
@@ -118,7 +121,7 @@ public class Tile : MonoBehaviour
             for (int i = 0; i < enemiesOnTile.Count; i++)
             {
                 enemiesOnTile[i].TakeDamage(damage);
-                if (enemiesOnTile[i].startHealth <= 0)
+                if (enemiesOnTile[i].health <= 0)
                 {
                     enemiesOnTile.RemoveRange(i--, 1);
                 }
@@ -216,6 +219,16 @@ public class Tile : MonoBehaviour
                 _gameManager.Tiles[tempList[i].x].Tiles[tempList[i].y].AttackColor();
             }
         }
+    }
+
+    public void ShowKingBoost()
+    {
+        _kingBoostText.SetActive(true);
+    }
+
+    public void HideKingBoost()
+    {
+        _kingBoostText.SetActive(false);
     }
 
     private void HideAttackSpots()
