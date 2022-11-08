@@ -97,9 +97,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30b51467ede7aec4787a7a00167db3b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _damage: 0
-  _attackSpeed: 0
+  _damage: 5
+  _attackSpeed: 1
   _targetedTiles: []
+  SellGold: 0
 --- !u!1 &2027195559372920581
 GameObject:
   m_ObjectHideFlags: 0
