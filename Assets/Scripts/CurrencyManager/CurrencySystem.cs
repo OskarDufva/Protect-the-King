@@ -32,7 +32,6 @@ public class CurrencySystem : MonoBehaviour
         {
             Gold = 0;
         }
-        print(Gold);
         UpdateGoldCounter();
     }
 
