@@ -8,7 +8,7 @@ public class EnemyStats : MonoBehaviour
     [SerializeField] private Wavemanager _wavemanager;
 
     public float startHealth;
-    private float health;
+    public float health;
     public int Damage;
     public int GoldGained;
 
@@ -53,7 +53,7 @@ public class EnemyStats : MonoBehaviour
             _wavemanager.EnemyDeath();
             Destroy(gameObject);
         }
-        else
+        else if (health <= 0)
         {
             _wavemanager.EnemyDeath();
             _currencySystem.ChangeGold(GoldGained);
