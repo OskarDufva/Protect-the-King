@@ -19,7 +19,7 @@ public class GameManager : MonoBehaviour
     [HideInInspector]
     public int width;
     public int height;
-     
+
     public Phases Phases = Phases.InitialPhase;
 
     public Tile _CurrentHoveredTile;
@@ -27,10 +27,10 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject _gameOverUI;
 
     public TileArray[] Tiles;
-    [SerializeField]public TileArray[] EmptyTiles;
+    [SerializeField] public TileArray[] EmptyTiles;
 
     public GameObject StartWaveButton;
-    private bool isActive;
+    public float GoldBoost;
 
     private void Start()
     {
@@ -103,11 +103,11 @@ public class GameManager : MonoBehaviour
                     {
                         if (Tiles[x].Tiles[y].EnemyPathTile == false && Tiles[x].Tiles[y].OccupiedTile == false)
                         {
-                        Tiles[x].Tiles[y].ValidPlacementColor();
+                            Tiles[x].Tiles[y].ValidPlacementColor();
                         }
                         else
                         {
-                        Tiles[x].Tiles[y].InvalidPlacementColor();
+                            Tiles[x].Tiles[y].InvalidPlacementColor();
                         }
                     }                
                 }
@@ -122,9 +122,10 @@ public class GameManager : MonoBehaviour
                 {
                     if (Tiles[x].Tiles[y] != _CurrentHoveredTile)
                     {
-                        if (Tiles[x].Tiles[y].EnemyPathTile == true && Tiles[x].Tiles[y].OccupiedTile == false)
+                        if (Tiles[x].Tiles[y].KingSpot == true)
                         {
                             Tiles[x].Tiles[y].ValidPlacementColor();
+                            Tiles[x].Tiles[y].ShowKingBoost();
                         }
                         else
                         {
@@ -142,7 +143,8 @@ public class GameManager : MonoBehaviour
         {
             for (int y = 0; y < Tiles[0].Tiles.Length; y++)
             {
-                    Tiles[x].Tiles[y].OriginalColor();
+                Tiles[x].Tiles[y].OriginalColor();
+                Tiles[x].Tiles[y].HideKingBoost();
             }
         }
     }

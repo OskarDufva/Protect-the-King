@@ -49,7 +49,7 @@ public class Wavemanager : MonoBehaviour
     public void SpawnWave(int waveCount)
     {
         var x = WaveSpawn(_waveList[waveCount]);
-        _goldThisWave = _waveList[waveCount].GoldGain;
+        _goldThisWave = Mathf.CeilToInt(_waveList[waveCount].GoldGain * GameManager.GoldBoost);
         Boost = _waveList[waveCount].EnemyBoost;
         StartCoroutine(x);
         _enemiesInWave = 0;
