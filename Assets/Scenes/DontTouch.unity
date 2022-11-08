@@ -1148,7 +1148,7 @@ MonoBehaviour:
   TileTxt: {fileID: 578239360}
   EnemyPathTile: 1
   KingSpot: 1
-  _kingSpotBoost: 1
+  _kingSpotBoost: 5
   OccupiedTile: 0
   Index: {x: 7, y: 2}
 --- !u!212 &44305903
@@ -15859,6 +15859,7 @@ MonoBehaviour:
   Phases: 0
   _CurrentHoveredTile: {fileID: 0}
   _gameOverUI: {fileID: 0}
+  _tutorialUI: {fileID: 0}
   Tiles:
   - Tiles:
     - {fileID: 996316471}
@@ -31572,7 +31573,7 @@ MonoBehaviour:
     Enemies:
     - Enemy: {fileID: 2027195559047122639, guid: 39077ec25477c3642a80ddffbe4d83bd, type: 3}
       SpawnDelay: 1
-      AmountOfEnemies: 3
+      AmountOfEnemies: 5
       BreakTime: 0
   - WaveName: Wave 1
     GoldGain: 100
