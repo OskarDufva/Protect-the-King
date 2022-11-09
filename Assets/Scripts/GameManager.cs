@@ -26,7 +26,6 @@ public class GameManager : MonoBehaviour
     public Tile _CurrentHoveredTile;
 
     [SerializeField] private GameObject _gameOverUI;
-    [SerializeField] private GameObject _tutorialUI;
 
     public TileArray[] Tiles;
     [SerializeField] public TileArray[] EmptyTiles;
@@ -163,11 +162,6 @@ public class GameManager : MonoBehaviour
     public void MaineMenu()
     {
         SceneManager.LoadScene("MainMenu");
-    }
-
-    public void Tutorial()
-    {
-        _tutorialUI.SetActive(true);
     }
 
 }
