@@ -112,7 +112,8 @@ public class Tile : MonoBehaviour
         {
             if (enemiesOnTile[i] == null)
             {
-                enemiesOnTile.RemoveRange(i, 1);
+                print("it was null");
+                enemiesOnTile.RemoveAt(i--);
             }
         }
         
@@ -123,7 +124,9 @@ public class Tile : MonoBehaviour
                 enemiesOnTile[i].TakeDamage(damage);
                 if (enemiesOnTile[i].health <= 0)
                 {
+                    EnemyStats tempEnemy = enemiesOnTile[i];
                     enemiesOnTile.RemoveRange(i--, 1);
+                    Destroy(tempEnemy.gameObject);
                 }
             }
         }
