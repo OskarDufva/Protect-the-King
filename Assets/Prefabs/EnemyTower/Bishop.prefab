@@ -278,7 +278,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pathData: {fileID: 11400000, guid: eb06a8a321a5c9f46aab7eb3d96b1419, type: 2}
-  moveSpeed: 1
+  moveSpeed: 1.25
 --- !u!65 &8915260487749734902
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -305,9 +305,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _wavemanager: {fileID: 0}
-  startHealth: 100
+  startHealth: 175
+  health: 0
   Damage: 10
-  GoldGained: 25
+  GoldGained: 10
   healthBar: {fileID: 5241565129241401640}
 --- !u!1 &2027195559372920581
 GameObject:

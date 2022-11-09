@@ -6265,8 +6265,8 @@ MonoBehaviour:
   Tower: {fileID: 0}
   TileTxt: {fileID: 19075442}
   EnemyPathTile: 1
-  KingSpot: 1
-  _kingSpotBoost: 3.5
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 7, y: 6}
 --- !u!212 &427419708
@@ -9244,6 +9244,74 @@ PrefabInstance:
     - target: {fileID: 4557971421406811938, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
       propertyPath: Gold
       value: 350
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160088305938579614, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160088305938579614, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160088305938579614, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160088305938579614, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160088305938579614, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160088305938579614, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160088305967432826, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160088305967432826, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160088305967432826, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160088305967432826, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160088305967432826, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160088305967432826, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7427631015687855747, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7427631015687855747, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7427631015687855747, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7427631015687855747, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7427631015687855747, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
@@ -13026,8 +13094,8 @@ MonoBehaviour:
   Tower: {fileID: 0}
   TileTxt: {fileID: 969845751}
   EnemyPathTile: 1
-  KingSpot: 0
-  _kingSpotBoost: 0
+  KingSpot: 1
+  _kingSpotBoost: 1.5
   OccupiedTile: 0
   Index: {x: 2, y: 2}
 --- !u!212 &702821523
@@ -13891,8 +13959,8 @@ MonoBehaviour:
   Tower: {fileID: 0}
   TileTxt: {fileID: 375387636}
   EnemyPathTile: 1
-  KingSpot: 1
-  _kingSpotBoost: 2
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 2, y: 4}
 --- !u!212 &746839256
@@ -16698,6 +16766,7 @@ MonoBehaviour:
   Phases: 0
   _CurrentHoveredTile: {fileID: 0}
   _gameOverUI: {fileID: 0}
+  _tutorialUI: {fileID: 0}
   Tiles:
   - Tiles:
     - {fileID: 1074096733}
@@ -31946,7 +32015,7 @@ MonoBehaviour:
   EnemiesAlive: 0
   _waveList:
   - WaveName: Wave 1
-    GoldGain: 100
+    GoldGain: 125
     EnemyBoost: 1
     Enemies:
     - Enemy: {fileID: 2027195559047122639, guid: 39077ec25477c3642a80ddffbe4d83bd, type: 3}
@@ -31954,16 +32023,16 @@ MonoBehaviour:
       AmountOfEnemies: 3
       BreakTime: 0
   - WaveName: Wave 2
-    GoldGain: 150
-    EnemyBoost: 1.1
+    GoldGain: 175
+    EnemyBoost: 1.3
     Enemies:
     - Enemy: {fileID: 2027195559047122639, guid: 39077ec25477c3642a80ddffbe4d83bd, type: 3}
       SpawnDelay: 1
       AmountOfEnemies: 7
       BreakTime: 0
   - WaveName: Wave 3
-    GoldGain: 200
-    EnemyBoost: 1.2
+    GoldGain: 225
+    EnemyBoost: 1.5
     Enemies:
     - Enemy: {fileID: 2027195559047122639, guid: 39077ec25477c3642a80ddffbe4d83bd, type: 3}
       SpawnDelay: 1
@@ -31974,8 +32043,8 @@ MonoBehaviour:
       AmountOfEnemies: 2
       BreakTime: 3
   - WaveName: Wave 4
-    GoldGain: 250
-    EnemyBoost: 1.3
+    GoldGain: 275
+    EnemyBoost: 1.7
     Enemies:
     - Enemy: {fileID: 2027195559047122639, guid: 39077ec25477c3642a80ddffbe4d83bd, type: 3}
       SpawnDelay: 1
@@ -31986,37 +32055,37 @@ MonoBehaviour:
       AmountOfEnemies: 3
       BreakTime: 2.5
   - WaveName: Wave 5
-    GoldGain: 300
-    EnemyBoost: 1.4
+    GoldGain: 325
+    EnemyBoost: 1.9
     Enemies:
-    - Enemy: {fileID: 2027195559047122639, guid: 39077ec25477c3642a80ddffbe4d83bd, type: 3}
-      SpawnDelay: 1
-      AmountOfEnemies: 6
-      BreakTime: 3
     - Enemy: {fileID: 2027195559047122639, guid: d335cf301fa1f2b43823c810a532cf5d, type: 3}
       SpawnDelay: 1
       AmountOfEnemies: 1
       BreakTime: 0
+    - Enemy: {fileID: 2027195559047122639, guid: 39077ec25477c3642a80ddffbe4d83bd, type: 3}
+      SpawnDelay: 1
+      AmountOfEnemies: 6
+      BreakTime: 2
   - WaveName: Wave 6
-    GoldGain: 2147483647
-    EnemyBoost: 1.5
+    GoldGain: 69
+    EnemyBoost: 2.5
     Enemies:
     - Enemy: {fileID: 2027195559047122639, guid: 39077ec25477c3642a80ddffbe4d83bd, type: 3}
       SpawnDelay: 1
       AmountOfEnemies: 10
       BreakTime: 0
-    - Enemy: {fileID: 2027195559047122639, guid: 442b14f064a52b6499c021f458e13a77, type: 3}
-      SpawnDelay: 1.5
-      AmountOfEnemies: 5
-      BreakTime: 4
-    - Enemy: {fileID: 2027195559047122639, guid: c893fd80e275bae40ac3255d426ea3e1, type: 3}
-      SpawnDelay: 0.8
-      AmountOfEnemies: 3
-      BreakTime: 3
     - Enemy: {fileID: 2027195559047122639, guid: d335cf301fa1f2b43823c810a532cf5d, type: 3}
       SpawnDelay: 1
       AmountOfEnemies: 2
+      BreakTime: 0
+    - Enemy: {fileID: 2027195559047122639, guid: c893fd80e275bae40ac3255d426ea3e1, type: 3}
+      SpawnDelay: 0.8
+      AmountOfEnemies: 3
       BreakTime: 2
+    - Enemy: {fileID: 2027195559047122639, guid: 442b14f064a52b6499c021f458e13a77, type: 3}
+      SpawnDelay: 1.5
+      AmountOfEnemies: 5
+      BreakTime: 3
 --- !u!4 &1936984597
 Transform:
   m_ObjectHideFlags: 0
@@ -34631,8 +34700,8 @@ MonoBehaviour:
   Tower: {fileID: 0}
   TileTxt: {fileID: 1596977535}
   EnemyPathTile: 1
-  KingSpot: 0
-  _kingSpotBoost: 0
+  KingSpot: 1
+  _kingSpotBoost: 2
   OccupiedTile: 0
   Index: {x: 5, y: 5}
 --- !u!212 &2135130401
