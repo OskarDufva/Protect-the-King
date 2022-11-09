@@ -38,7 +38,8 @@ public class EnemyStats : MonoBehaviour
         King king = other.GetComponent<King>();
         if (king != null)
         {
-            _touchKing = true;
+            print("hit the king");
+            
         }
     }
 
@@ -47,17 +48,18 @@ public class EnemyStats : MonoBehaviour
         health -= damage;
 
         healthBar.fillAmount = health / startHealth;
-
-        if (_touchKing == true)
+        //if (_touchKing == true)
+        //{
+        //    _wavemanager.EnemyDeath();
+        //    Destroy(gameObject);
+        //}
+        if (health <= 0)
         {
             _wavemanager.EnemyDeath();
-            Destroy(gameObject);
         }
-        else if (health <= 0)
-        {
-            _wavemanager.EnemyDeath();
-            _currencySystem.ChangeGold(GoldGained);
-            Destroy(gameObject);
-        }
+    }
+    private void OnDestroy()
+    {
+        _currencySystem.ChangeGold(GoldGained);
     }
 }
