@@ -90,6 +90,8 @@ public class PiecePlacement : MonoBehaviour
             GameObject temp = Instantiate(_gameObject);
             _gameManager._CurrentHoveredTile.OccupiedTile = true;
             _gameManager.ChangePhases(Phases.PreparationPhase);
+            _gameManager._CurrentHoveredTile.Tower = temp;
+            temp.GetComponent<King>().Position = _gameManager._CurrentHoveredTile.Index;
             temp.transform.position = _gameManager._CurrentHoveredTile.transform.position;
             _gameManager.GoldBoost = _gameManager._CurrentHoveredTile._kingSpotBoost;
         }

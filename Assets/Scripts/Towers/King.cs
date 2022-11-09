@@ -13,6 +13,8 @@ public class King : MonoBehaviour
     private bool isDead;
 
     private GameManager _gameManager;
+    public Vector2Int Position;
+
 
     private void Start()
     {
@@ -32,15 +34,15 @@ public class King : MonoBehaviour
             _gameManager.GameOver();
             Destroy(gameObject);
         }
-        
     }
+
     private void OnTriggerEnter(Collider other)
     {
         EnemyStats enemyStats = other.GetComponent<EnemyStats>();
         if (enemyStats != null)
         {
-            print(enemyStats);
             TakeDamage(enemyStats.Damage);
+            _gameManager.Tiles[Position.x].Tiles[Position.y].DealDamage(enemyStats.startHealth);
             enemyStats.TakeDamage(enemyStats.startHealth);            
         }        
     }
