@@ -56,6 +56,7 @@ public class EnemyStats : MonoBehaviour
         if (health <= 0)
         {
             _wavemanager.EnemyDeath();
+            Destroy(gameObject);
         }
     }
     private void OnDestroy()

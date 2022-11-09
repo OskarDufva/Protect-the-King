@@ -38,7 +38,10 @@ public class PathFinding : MonoBehaviour
     private List<TileData> Listtoendalljoblists = new List<TileData>();
 
     [ContextMenu("DOOOOMS DAY")]
-
+    private void start ()
+    {
+        VeryFun();
+    }
     public async void Fun()
     {
         Listtoendalllists.Clear();

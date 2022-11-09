@@ -5,7 +5,6 @@ using TMPro;
 using System;
 using System.Linq;
 using UnityEngine.SceneManagement;
-using UnityEditor.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -44,19 +43,19 @@ public class GameManager : MonoBehaviour
         if (_gameSpeed == 1)
         {
             _gameSpeed = 2;
-            _speedTxt.text = "2x";
+            _speedTxt.text = ">>";
             ChangeSpeed();
         }
         else if (_gameSpeed == 2)
         {
             _gameSpeed = 4;
-            _speedTxt.text = "3x";
+            _speedTxt.text = ">>>";
             ChangeSpeed();
         }
         else if (_gameSpeed == 4)
         {
             _gameSpeed = 1;
-            _speedTxt.text = "1x";
+            _speedTxt.text = ">";
             ChangeSpeed();
         }
     }
