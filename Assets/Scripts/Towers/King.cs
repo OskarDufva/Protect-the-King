@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class King : MonoBehaviour
 {
-    public float _health;
-    public float _maxHealth;
-    public KingHealth healthBar;
+    public int _health;
+    public int _maxHealth;
+    public TextMeshProUGUI txt_HealthCount;
 
     private bool isDead;
 
@@ -16,13 +17,15 @@ public class King : MonoBehaviour
     private void Start()
     {
         _gameManager = FindObjectOfType<GameManager>();
+        txt_HealthCount.SetText("Health: " + _health.ToString());
+        _health = _maxHealth;
     }
 
-    void TakeDamage(float damage)
+    void TakeDamage(int damage)
     {
 
         _health -= damage;
-        healthBar.UpdateHealthBar();
+        txt_HealthCount.SetText("Health: " + _health.ToString());
         if (_health <= 0 && !isDead)
         {
             isDead = true;

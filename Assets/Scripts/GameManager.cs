@@ -26,7 +26,6 @@ public class GameManager : MonoBehaviour
     public Tile _CurrentHoveredTile;
 
     [SerializeField] private GameObject _gameOverUI;
-    [SerializeField] private GameObject _tutorialUI;
 
     public TileArray[] Tiles;
     [SerializeField] public TileArray[] EmptyTiles;
@@ -45,19 +44,19 @@ public class GameManager : MonoBehaviour
         if (_gameSpeed == 1)
         {
             _gameSpeed = 2;
-            _speedTxt.text = ">>";
+            _speedTxt.text = "2x";
             ChangeSpeed();
         }
         else if (_gameSpeed == 2)
         {
             _gameSpeed = 4;
-            _speedTxt.text = ">>>";
+            _speedTxt.text = "3x";
             ChangeSpeed();
         }
         else if (_gameSpeed == 4)
         {
             _gameSpeed = 1;
-            _speedTxt.text = ">";
+            _speedTxt.text = "1x";
             ChangeSpeed();
         }
     }
@@ -163,11 +162,6 @@ public class GameManager : MonoBehaviour
     public void MaineMenu()
     {
         SceneManager.LoadScene("MainMenu");
-    }
-
-    public void Tutorial()
-    {
-        _tutorialUI.SetActive(true);
     }
 
 }

@@ -217,10 +217,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 1273141138}
   EnemyPathTile: 0
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 5, y: 6}
 --- !u!212 &2074268
@@ -369,10 +371,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 820915102}
   EnemyPathTile: 0
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 2, y: 6}
 --- !u!212 &40638857
@@ -891,10 +895,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 1593763935}
   EnemyPathTile: 0
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 1, y: 2}
 --- !u!212 &81198929
@@ -1043,10 +1049,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 448404598}
   EnemyPathTile: 1
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 7, y: 2}
 --- !u!212 &110802332
@@ -1195,10 +1203,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 1910912383}
   EnemyPathTile: 0
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 4, y: 6}
 --- !u!212 &111066985
@@ -1347,10 +1357,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 1376386485}
   EnemyPathTile: 1
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 3, y: 1}
 --- !u!212 &112151486
@@ -1499,10 +1511,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 43678008}
   EnemyPathTile: 0
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 0, y: 1}
 --- !u!212 &114504992
@@ -1651,10 +1665,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 1070846268}
   EnemyPathTile: 1
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 5, y: 5}
 --- !u!212 &118689827
@@ -2173,10 +2189,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 1618959355}
   EnemyPathTile: 1
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 2, y: 5}
 --- !u!212 &219083833
@@ -2325,10 +2343,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 2142460804}
   EnemyPathTile: 0
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 6, y: 6}
 --- !u!212 &230050492
@@ -2662,10 +2682,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 1454372984}
   EnemyPathTile: 1
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 7, y: 7}
 --- !u!212 &243714584
@@ -2999,10 +3021,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 1212980041}
   EnemyPathTile: 1
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 0, y: 7}
 --- !u!212 &270437108
@@ -3151,10 +3175,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 1668288014}
   EnemyPathTile: 0
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 4, y: 4}
 --- !u!212 &283558058
@@ -3673,10 +3699,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 164257287}
   EnemyPathTile: 1
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 4, y: 7}
 --- !u!212 &315459113
@@ -3825,10 +3853,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 1656948087}
   EnemyPathTile: 0
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 0, y: 2}
 --- !u!212 &339046509
@@ -4162,10 +4192,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 1931830088}
   EnemyPathTile: 0
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 0, y: 5}
 --- !u!212 &394845758
@@ -4684,10 +4716,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 71237709}
   EnemyPathTile: 0
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 5, y: 3}
 --- !u!212 &464747317
@@ -4836,10 +4870,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 2141553889}
   EnemyPathTile: 0
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 7, y: 3}
 --- !u!212 &475946743
@@ -5622,10 +5658,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 1906261005}
   EnemyPathTile: 0
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 7, y: 0}
 --- !u!212 &578421171
@@ -5774,10 +5812,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 1568662481}
   EnemyPathTile: 1
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 4, y: 5}
 --- !u!212 &603822793
@@ -6481,10 +6521,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 1477597546}
   EnemyPathTile: 1
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 5, y: 4}
 --- !u!212 &625246190
@@ -6633,10 +6675,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 523063350}
   EnemyPathTile: 0
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 1, y: 1}
 --- !u!212 &664793794
@@ -6970,10 +7014,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 360006485}
   EnemyPathTile: 1
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 6, y: 4}
 --- !u!212 &707348669
@@ -7492,10 +7538,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 727480591}
   EnemyPathTile: 1
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 5, y: 1}
 --- !u!212 &724964686
@@ -8014,10 +8062,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 298083303}
   EnemyPathTile: 1
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 1, y: 7}
 --- !u!212 &777323270
@@ -8166,10 +8216,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 1316513036}
   EnemyPathTile: 1
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 6, y: 2}
 --- !u!212 &779411594
@@ -8318,10 +8370,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 1283300567}
   EnemyPathTile: 1
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 2, y: 4}
 --- !u!212 &784278752
@@ -9278,10 +9332,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 1701735147}
   EnemyPathTile: 0
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 0, y: 3}
 --- !u!212 &885395814
@@ -9430,10 +9486,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 2040785291}
   EnemyPathTile: 0
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 3, y: 0}
 --- !u!212 &932230170
@@ -9582,10 +9640,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 505546463}
   EnemyPathTile: 0
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 4, y: 2}
 --- !u!212 &946275941
@@ -9734,10 +9794,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 1860919683}
   EnemyPathTile: 1
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 2, y: 2}
 --- !u!212 &958726518
@@ -9886,10 +9948,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 1431026472}
   EnemyPathTile: 0
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 7, y: 1}
 --- !u!212 &999083692
@@ -10038,10 +10102,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 1461292840}
   EnemyPathTile: 0
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 1, y: 3}
 --- !u!212 &1011915610
@@ -10190,10 +10256,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 458862926}
   EnemyPathTile: 0
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 0, y: 4}
 --- !u!212 &1024024871
@@ -10342,10 +10410,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 243943936}
   EnemyPathTile: 0
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 1, y: 0}
 --- !u!212 &1024835651
@@ -10791,10 +10861,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 2130942332}
   EnemyPathTile: 0
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 5, y: 0}
 --- !u!212 &1100399425
@@ -10943,10 +11015,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 816703253}
   EnemyPathTile: 0
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 1, y: 6}
 --- !u!212 &1109490903
@@ -11095,10 +11169,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 2093051914}
   EnemyPathTile: 0
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 0, y: 0}
 --- !u!212 &1137213891
@@ -11247,10 +11323,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 739408957}
   EnemyPathTile: 1
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 5, y: 7}
 --- !u!212 &1154451195
@@ -11399,10 +11477,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 2135522855}
   EnemyPathTile: 0
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 3, y: 3}
 --- !u!212 &1174560264
@@ -11551,10 +11631,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 312184120}
   EnemyPathTile: 0
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 3, y: 4}
 --- !u!212 &1187320348
@@ -11888,10 +11970,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 1490601944}
   EnemyPathTile: 0
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 2, y: 0}
 --- !u!212 &1239905080
@@ -12595,10 +12679,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 881136245}
   EnemyPathTile: 1
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 2, y: 3}
 --- !u!212 &1313920960
@@ -12932,10 +13018,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 2092911551}
   EnemyPathTile: 1
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 7, y: 4}
 --- !u!212 &1355386551
@@ -13454,10 +13542,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 614382745}
   EnemyPathTile: 1
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 4, y: 1}
 --- !u!212 &1385275080
@@ -13606,10 +13696,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 234216423}
   EnemyPathTile: 1
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 3, y: 7}
 --- !u!212 &1405887259
@@ -14683,10 +14775,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 711525126}
   EnemyPathTile: 1
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 2, y: 7}
 --- !u!212 &1458012030
@@ -15020,10 +15114,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 1361098810}
   EnemyPathTile: 1
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 5, y: 2}
 --- !u!212 &1461528271
@@ -15727,10 +15823,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 1552641713}
   EnemyPathTile: 0
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 4, y: 0}
 --- !u!212 &1549721223
@@ -16619,10 +16717,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 1285036199}
   EnemyPathTile: 0
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 0, y: 6}
 --- !u!212 &1604267303
@@ -16771,10 +16871,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 692674729}
   EnemyPathTile: 0
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 1, y: 4}
 --- !u!212 &1615283883
@@ -17293,10 +17395,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 1417921488}
   EnemyPathTile: 0
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 6, y: 1}
 --- !u!212 &1658935958
@@ -17580,13 +17684,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d880538e656e34b439fb8c2139036ba8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speedTxt: {fileID: 1305764816971501250}
-  _waveTxt: {fileID: 1305764817308791721}
+  _speedTxt: {fileID: 1609618229601129271}
+  _waveTxt: {fileID: 1609618229803675228}
   width: 8
   height: 8
   Phases: 0
   _CurrentHoveredTile: {fileID: 0}
   _gameOverUI: {fileID: 0}
+  _tutorialUI: {fileID: 0}
   Tiles:
   - Tiles:
     - {fileID: 1137213890}
@@ -17661,7 +17766,8 @@ MonoBehaviour:
     - {fileID: 2115651614}
     - {fileID: 243714583}
   EmptyTiles: []
-  StartWaveButton: {fileID: 1305764817473947385}
+  StartWaveButton: {fileID: 1609618229027183372}
+  GoldBoost: 0
 --- !u!1 &1701735147
 GameObject:
   m_ObjectHideFlags: 0
@@ -17941,10 +18047,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 146729399}
   EnemyPathTile: 1
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 3, y: 2}
 --- !u!212 &1711611674
@@ -18093,10 +18201,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 1874596805}
   EnemyPathTile: 0
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 6, y: 0}
 --- !u!212 &1724235388
@@ -18245,10 +18355,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 623880859}
   EnemyPathTile: 0
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 2, y: 1}
 --- !u!212 &1829389449
@@ -18582,10 +18694,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 1474233242}
   EnemyPathTile: 1
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 7, y: 5}
 --- !u!212 &1865516335
@@ -18919,10 +19033,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 1572634920}
   EnemyPathTile: 1
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 3, y: 5}
 --- !u!212 &1876608263
@@ -19256,10 +19372,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 605994693}
   EnemyPathTile: 0
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 6, y: 5}
 --- !u!212 &1895782843
@@ -19408,10 +19526,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 2073047969}
   EnemyPathTile: 0
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 6, y: 3}
 --- !u!212 &1898512285
@@ -20115,10 +20235,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 1883825193}
   EnemyPathTile: 0
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 1, y: 5}
 --- !u!212 &1988338729
@@ -20267,10 +20389,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 719354929}
   EnemyPathTile: 1
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 6, y: 7}
 --- !u!212 &2000973371
@@ -21223,10 +21347,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 849729538}
   EnemyPathTile: 0
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 4, y: 3}
 --- !u!212 &2109826845
@@ -21375,10 +21501,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 1449701038}
   EnemyPathTile: 1
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 7, y: 6}
 --- !u!212 &2115651615
@@ -21527,10 +21655,12 @@ MonoBehaviour:
   _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
   _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
   _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
+  _kingBoostText: {fileID: 0}
   Tower: {fileID: 0}
   TileTxt: {fileID: 1421156667}
   EnemyPathTile: 0
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 3, y: 6}
 --- !u!212 &2125813760
@@ -22325,345 +22455,44 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1001 &20448187873168712
+--- !u!1 &1609618229027183372 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1593753945473521220, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+  m_PrefabInstance: {fileID: 4746066906011849648}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1609618229601129271 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1593753944900066943, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+  m_PrefabInstance: {fileID: 4746066906011849648}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1609618229803675228 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1593753944697070356, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+  m_PrefabInstance: {fileID: 4746066906011849648}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &4746066906011849648
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 20448187205962223, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_Color.a
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 20448187654650507, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_Name
-      value: KnightPanel
-      objectReference: {fileID: 0}
-    - target: {fileID: 20448187654650508, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 20448187654650508, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 20448187654650508, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 20448187654650508, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 20448187654650508, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 20448187654650508, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 20448187798232300, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_fontAsset
-      value: 
-      objectReference: {fileID: 11400000, guid: 3763e1b4dfe41264b808c960d980b43e, type: 2}
-    - target: {fileID: 20448187798232300, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_sharedMaterial
-      value: 
-      objectReference: {fileID: 644805130896580552, guid: 3763e1b4dfe41264b808c960d980b43e, type: 2}
-    - target: {fileID: 20448188270813801, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_fontAsset
-      value: 
-      objectReference: {fileID: 11400000, guid: 3763e1b4dfe41264b808c960d980b43e, type: 2}
-    - target: {fileID: 20448188270813801, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_sharedMaterial
-      value: 
-      objectReference: {fileID: 644805130896580552, guid: 3763e1b4dfe41264b808c960d980b43e, type: 2}
-    - target: {fileID: 20448188333075502, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_fontAsset
-      value: 
-      objectReference: {fileID: 11400000, guid: 3763e1b4dfe41264b808c960d980b43e, type: 2}
-    - target: {fileID: 20448188333075502, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_sharedMaterial
-      value: 
-      objectReference: {fileID: 644805130896580552, guid: 3763e1b4dfe41264b808c960d980b43e, type: 2}
-    - target: {fileID: 20448188819116609, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_fontAsset
-      value: 
-      objectReference: {fileID: 11400000, guid: 3763e1b4dfe41264b808c960d980b43e, type: 2}
-    - target: {fileID: 20448188819116609, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_sharedMaterial
-      value: 
-      objectReference: {fileID: 644805130896580552, guid: 3763e1b4dfe41264b808c960d980b43e, type: 2}
-    - target: {fileID: 288552440117524209, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 288552440117524209, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 288552440117524209, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 288552440117524209, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 288552440117524209, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 288552440117524209, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 288552440117524214, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_Name
-      value: PawnPanel
-      objectReference: {fileID: 0}
-    - target: {fileID: 288552440185561205, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 288552440185561205, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 288552440185561205, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 288552440185561205, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 288552440185561205, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 288552440185561205, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 288552440185561210, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_Name
-      value: RookPanel
-      objectReference: {fileID: 0}
-    - target: {fileID: 288552440283718801, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 288552440283718801, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 288552440283718801, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 288552440283718801, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 288552440283718801, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 288552440283718801, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 288552440283718806, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_Name
-      value: BishopPanel
-      objectReference: {fileID: 0}
-    - target: {fileID: 912613890360775497, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: ba382395bd84db94cb24b0a67201d4ac, type: 3}
-    - target: {fileID: 912613890360775499, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 912613890437578977, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 912613890437578977, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 912613890437578977, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 912613890437578977, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 912613890437578977, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 290
-      objectReference: {fileID: 0}
-    - target: {fileID: 912613890437578977, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 74
-      objectReference: {fileID: 0}
-    - target: {fileID: 912613890437578977, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 960
-      objectReference: {fileID: 0}
-    - target: {fileID: 912613890437578977, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -424
-      objectReference: {fileID: 0}
-    - target: {fileID: 912613891189719349, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 912613891189719349, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 912613891189719349, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 74
-      objectReference: {fileID: 0}
-    - target: {fileID: 912613891189719349, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 960
-      objectReference: {fileID: 0}
-    - target: {fileID: 912613891189719349, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -646
-      objectReference: {fileID: 0}
-    - target: {fileID: 912613891337146849, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0.80256253
-      objectReference: {fileID: 0}
-    - target: {fileID: 912613891337146849, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: -0.4280014
-      objectReference: {fileID: 0}
-    - target: {fileID: 912613891337146849, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.21398926
-      objectReference: {fileID: 0}
-    - target: {fileID: 912613891337146853, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_Name
-      value: TowerShopButton
-      objectReference: {fileID: 0}
-    - target: {fileID: 912613891512203400, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 912613891512203400, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 912613891512203400, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0.80256253
-      objectReference: {fileID: 0}
-    - target: {fileID: 912613891512203400, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 912613891512203400, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 912613891512203400, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 912613891512203400, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 912613891512203400, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 912613891512203401, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_Name
-      value: TowerPanel
-      objectReference: {fileID: 0}
-    - target: {fileID: 912613892156745552, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 912613892156745552, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 912613892156745552, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 74
-      objectReference: {fileID: 0}
-    - target: {fileID: 912613892156745552, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 960
-      objectReference: {fileID: 0}
-    - target: {fileID: 912613892156745552, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -498
-      objectReference: {fileID: 0}
-    - target: {fileID: 912613892384756781, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 912613892384756781, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 912613892384756781, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 74
-      objectReference: {fileID: 0}
-    - target: {fileID: 912613892384756781, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 960
-      objectReference: {fileID: 0}
-    - target: {fileID: 912613892384756781, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -572
-      objectReference: {fileID: 0}
-    - target: {fileID: 1338993532107069212, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0.97265106
-      objectReference: {fileID: 0}
-    - target: {fileID: 1338993532107069212, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1338993532107069212, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1593753944595456069, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1674368250}
-    - target: {fileID: 1593753944697070356, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_fontSize
-      value: 43
-      objectReference: {fileID: 0}
-    - target: {fileID: 1593753944697070356, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_fontAsset
-      value: 
-      objectReference: {fileID: 11400000, guid: 3763e1b4dfe41264b808c960d980b43e, type: 2}
-    - target: {fileID: 1593753944697070356, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_fontStyle
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1593753944697070356, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_sharedMaterial
-      value: 
-      objectReference: {fileID: 644805130896580552, guid: 3763e1b4dfe41264b808c960d980b43e, type: 2}
     - target: {fileID: 1593753945322139625, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -22756,55 +22585,23 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1674368250}
-    - target: {fileID: 3846400682565124391, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0.96500003
-      objectReference: {fileID: 0}
-    - target: {fileID: 3846400682565124391, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+    - target: {fileID: 2242321778261629942, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3846400682565124391, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0.037304148
-      objectReference: {fileID: 0}
-    - target: {fileID: 3846400682565124391, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+    - target: {fileID: 2242321778261629942, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.10454008
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3846400682565124391, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+    - target: {fileID: 2242321778261629942, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
       propertyPath: m_SizeDelta.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3846400682565124391, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3846400682565124391, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+    - target: {fileID: 2242321778261629942, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3846400682565124391, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4165819186492065817, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_Name
-      value: SellTxt
-      objectReference: {fileID: 0}
-    - target: {fileID: 4557971422041023814, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_fontSize
-      value: 41.95
-      objectReference: {fileID: 0}
-    - target: {fileID: 4824335900227963491, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_fontSize
-      value: 33.85
-      objectReference: {fileID: 0}
-    - target: {fileID: 6540713446301123990, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -90.57199
-      objectReference: {fileID: 0}
-    - target: {fileID: 6540713446301123990, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+    - target: {fileID: 2242321778261629942, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
@@ -22818,10 +22615,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7160088305938579614, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7160088305938579614, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7160088305938579614, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
@@ -22845,10 +22638,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7160088305967432826, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7160088305967432826, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -22869,10 +22658,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7427631015687855747, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7427631015687855747, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -22880,69 +22665,5 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7427631016298029359, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0.9756898
-      objectReference: {fileID: 0}
-    - target: {fileID: 7427631016298029359, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7427631016298029359, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8716509957177470812, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0.98176736
-      objectReference: {fileID: 0}
-    - target: {fileID: 8716509957177470812, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0.3816267
-      objectReference: {fileID: 0}
-    - target: {fileID: 8716509957177470812, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8716509957177470812, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8716509957177470812, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8716509957177470812, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 20448187205962223, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
---- !u!114 &1305764816971501250 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1593753944900066943, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-  m_PrefabInstance: {fileID: 20448187873168712}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1305764817308791721 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1593753944697070356, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-  m_PrefabInstance: {fileID: 20448187873168712}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1 &1305764817473947385 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1593753945473521220, guid: 2d1c6d748e10f9f48a98bcd427b5a86b, type: 3}
-  m_PrefabInstance: {fileID: 20448187873168712}
-  m_PrefabAsset: {fileID: 0}
