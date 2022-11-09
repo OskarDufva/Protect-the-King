@@ -35,12 +35,12 @@ public class EnemyStats : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (Collider.FindObjectOfType<King>())
+        King king = other.GetComponent<King>();
+        if (king != null)
         {
             _touchKing = true;
         }
     }
-
 
     public void TakeDamage(float damage)
     {
@@ -48,7 +48,7 @@ public class EnemyStats : MonoBehaviour
 
         healthBar.fillAmount = health / startHealth;
 
-        if (health <= 0 && _touchKing == true)
+        if (_touchKing == true)
         {
             _wavemanager.EnemyDeath();
             Destroy(gameObject);

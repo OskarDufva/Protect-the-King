@@ -45,19 +45,19 @@ public class GameManager : MonoBehaviour
         if (_gameSpeed == 1)
         {
             _gameSpeed = 2;
-            _speedTxt.text = ">>";
+            _speedTxt.text = "2x";
             ChangeSpeed();
         }
         else if (_gameSpeed == 2)
         {
             _gameSpeed = 4;
-            _speedTxt.text = ">>>";
+            _speedTxt.text = "3x";
             ChangeSpeed();
         }
         else if (_gameSpeed == 4)
         {
             _gameSpeed = 1;
-            _speedTxt.text = ">";
+            _speedTxt.text = "1x";
             ChangeSpeed();
         }
     }
@@ -71,7 +71,6 @@ public class GameManager : MonoBehaviour
     {
         if (_waveManager.EnemiesAlive <= 0 && Phases == Phases.PreparationPhase)
         {
-            print(Phases);
             Phases = Phases.ActionPhase;
 
             StartWaveButton.transform.gameObject.SetActive(false);
