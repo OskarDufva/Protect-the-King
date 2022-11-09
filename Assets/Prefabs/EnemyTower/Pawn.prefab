@@ -131,7 +131,7 @@ MonoBehaviour:
   startHealth: 100
   health: 0
   Damage: 10
-  GoldGained: 15
+  GoldGained: 5
   healthBar: {fileID: 9175575202238474572}
 --- !u!1 &2027195559372920581
 GameObject:
