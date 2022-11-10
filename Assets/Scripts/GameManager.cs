@@ -32,9 +32,6 @@ public class GameManager : MonoBehaviour
     public GameObject StartWaveButton;
     public float GoldBoost;
 
-
-
-    public GameObject StartWaveButton;
     private bool isActive;
 
     private void Start()
