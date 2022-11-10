@@ -50,7 +50,7 @@ public class Wavemanager : MonoBehaviour
         {
             if (GameManager._currentWave == _totalWaveCount)
             {
-                GameManager.GameOver();
+                GameManager.Victory();
                 print("winn screen");
                 return;
             }
