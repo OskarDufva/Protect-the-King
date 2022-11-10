@@ -144,6 +144,7 @@ public class GameManager : MonoBehaviour
             {
                 Tiles[x].Tiles[y].OriginalColor();
                 Tiles[x].Tiles[y].HideKingBoost();
+                Tiles[x].Tiles[y].OrderLayer();
             }
         }
     }

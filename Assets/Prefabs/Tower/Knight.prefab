@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: -5838860707072559945}
   - component: {fileID: 5647230299034197302}
   - component: {fileID: 1922590151005163991}
-  m_Layer: 6
+  - component: {fileID: 6676503290526919794}
+  m_Layer: 3
   m_Name: Knight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -133,7 +134,19 @@ MonoBehaviour:
   - {x: 0.15051623, y: -0.10615138, z: 0}
   m_ShapePathHash: 1423996154
   m_Mesh: {fileID: 0}
-  m_InstanceId: -578012
+  m_InstanceId: 61606
+--- !u!225 &6676503290526919794
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027195559047122639}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 0
+  m_IgnoreParentGroups: 0
 --- !u!1 &2027195559372920581
 GameObject:
   m_ObjectHideFlags: 0
@@ -144,7 +157,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2027195559372920698}
   - component: {fileID: 2027195559372920699}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}

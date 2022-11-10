@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 7425283335516883521}
   - component: {fileID: 2022042855766549533}
   - component: {fileID: 7220053477819215106}
-  m_Layer: 6
+  - component: {fileID: 8735983462750937236}
+  m_Layer: 3
   m_Name: Pawn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -134,7 +135,19 @@ MonoBehaviour:
   - {x: 0.16175325, y: -0.10779033, z: 0}
   m_ShapePathHash: -1988085570
   m_Mesh: {fileID: 0}
-  m_InstanceId: 252292
+  m_InstanceId: 61688
+--- !u!225 &8735983462750937236
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027195559047122639}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 0
+  m_IgnoreParentGroups: 0
 --- !u!1 &2027195559372920581
 GameObject:
   m_ObjectHideFlags: 0
@@ -145,7 +158,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2027195559372920698}
   - component: {fileID: 2027195559372920699}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
