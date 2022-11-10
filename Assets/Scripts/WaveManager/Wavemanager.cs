@@ -8,7 +8,6 @@ public class Wavemanager : MonoBehaviour
     public GameManager GameManager;
     public int EnemiesAlive = 0;
     public WaveList[] _waveList;
-<<<<<<< Updated upstream
    
     private CurrencySystem _currencySystem;
     private int _goldThisWave;
@@ -18,10 +17,10 @@ public class Wavemanager : MonoBehaviour
     private int _totalWaveCount;
     private int _waveCount;
 
-=======
+
     public GameObject StartWaveButton;
     private bool isActive;
->>>>>>> Stashed changes
+
 
     private void Start()
     {
@@ -57,12 +56,10 @@ public class Wavemanager : MonoBehaviour
             }
             _currencySystem.ChangeGold(_goldThisWave);
             GameManager.ChangePhases(Phases.PreparationPhase);
-<<<<<<< Updated upstream
             GameManager.StartWaveButton.transform.gameObject.SetActive(true);
-=======
+
             StartWaveButton.transform.gameObject.SetActive(true);
             isActive = true;
->>>>>>> Stashed changes
         }
 
     }
