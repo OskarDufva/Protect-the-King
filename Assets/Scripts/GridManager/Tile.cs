@@ -224,6 +224,16 @@ public class Tile : MonoBehaviour
         }
     }
 
+    public void OrderLayer()
+    {
+        if (Tower != null)
+        {
+            SpriteRenderer tempTower = Tower.GetComponent<SpriteRenderer>();
+            tempTower.sortingOrder = _gameManager.height - Index.y;
+            print("Sorted the order");
+        }
+    }
+
     public void ShowKingBoost()
     {
         _kingBoostText.SetActive(true);
