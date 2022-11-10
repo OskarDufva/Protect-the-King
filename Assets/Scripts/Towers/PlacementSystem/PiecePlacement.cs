@@ -94,8 +94,6 @@ public class PiecePlacement : MonoBehaviour
             temp.GetComponent<King>().Position = _gameManager._CurrentHoveredTile.Index;
             temp.transform.position = _gameManager._CurrentHoveredTile.transform.position;
             _gameManager.GoldBoost = _gameManager._CurrentHoveredTile._kingSpotBoost;
-            transform.gameObject.SetActive(false);
-            transform.parent.gameObject.SetActive(false);
         }
 
     }

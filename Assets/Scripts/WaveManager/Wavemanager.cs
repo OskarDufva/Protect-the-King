@@ -18,6 +18,10 @@ public class Wavemanager : MonoBehaviour
     private int _waveCount;
 
 
+    public GameObject StartWaveButton;
+    private bool isActive;
+
+
     private void Start()
     {
         if (_currencySystem == null)
@@ -53,7 +57,8 @@ public class Wavemanager : MonoBehaviour
             _currencySystem.ChangeGold(_goldThisWave);
             GameManager.ChangePhases(Phases.PreparationPhase);
             GameManager.StartWaveButton.transform.gameObject.SetActive(true);
-            GameManager.WaveInProgress = false;
+            StartWaveButton.transform.gameObject.SetActive(true);
+            isActive = true;
         }
 
     }

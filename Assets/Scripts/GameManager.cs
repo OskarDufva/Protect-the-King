@@ -32,7 +32,7 @@ public class GameManager : MonoBehaviour
     public GameObject StartWaveButton;
     public float GoldBoost;
 
-    public bool WaveInProgress = false;
+    private bool isActive;
 
     private void Start()
     {
@@ -79,7 +79,7 @@ public class GameManager : MonoBehaviour
             WaveTxt();
             _currentWave++;
             StartWaveButton.transform.gameObject.SetActive(false);
-            WaveInProgress = true;
+            isActive = false;
         }
     }
 

@@ -32,11 +32,8 @@ public class Knight : MonoBehaviour
         if (timer > _attackSpeed)
         {
             DealDamage();
+            _animator.Play("Base Layer.knightstompanim", 0, 0.25f);
             timer = 0;
-            if (_gameManager.WaveInProgress)
-            {
-                _animator.Play("Base Layer.knightstompanim", 0, 0.25f);
-            }
         }
 
     }
