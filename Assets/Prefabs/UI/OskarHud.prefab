@@ -999,7 +999,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2160338968985334375}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.0006312314, w: 0.9999998}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1010,7 +1010,7 @@ RectTransform:
   - {fileID: 1535856446678822527}
   m_Father: {fileID: 6923138637246791944}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.072}
   m_AnchorMin: {x: 0.78700006, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -1090,7 +1090,7 @@ MonoBehaviour:
     m_Left: 25
     m_Right: 25
     m_Top: 25
-    m_Bottom: 130
+    m_Bottom: 170
   m_ChildAlignment: 4
   m_Spacing: 25
   m_ChildForceExpandWidth: 1
@@ -4413,7 +4413,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8522339542400168413}
   - component: {fileID: 8522339542400168414}
-  - component: {fileID: 8522339542400168412}
   m_Layer: 5
   m_Name: BishopSpawner container
   m_TagString: Untagged
@@ -4450,27 +4449,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8522339542400168410}
   m_CullTransparentMesh: 1
---- !u!50 &8522339542400168412
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8522339542400168410}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &8522339542631703442
 GameObject:
   m_ObjectHideFlags: 0
@@ -4773,7 +4751,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8522339543111362539}
   - component: {fileID: 8522339543111362540}
-  - component: {fileID: 8522339543111362538}
   m_Layer: 5
   m_Name: RookSpawner container
   m_TagString: Untagged
@@ -4810,27 +4787,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8522339543111362536}
   m_CullTransparentMesh: 1
---- !u!50 &8522339543111362538
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8522339543111362536}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &8522339543152521112
 GameObject:
   m_ObjectHideFlags: 0
@@ -5195,7 +5151,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8522339544129562380}
   - component: {fileID: 8522339544129562369}
-  - component: {fileID: 8522339544129562383}
   m_Layer: 5
   m_Name: KnightSpawner container
   m_TagString: Untagged
@@ -5232,27 +5187,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8522339544129562381}
   m_CullTransparentMesh: 1
---- !u!50 &8522339544129562383
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8522339544129562381}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &8838184878575700400
 GameObject:
   m_ObjectHideFlags: 0
