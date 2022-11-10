@@ -32,6 +32,11 @@ public class GameManager : MonoBehaviour
     public GameObject StartWaveButton;
     public float GoldBoost;
 
+
+
+    public GameObject StartWaveButton;
+    private bool isActive;
+
     private void Start()
     {
         _waveManager = FindObjectOfType<Wavemanager>();
@@ -76,6 +81,8 @@ public class GameManager : MonoBehaviour
             _waveManager.SpawnWave(_currentWave);
             WaveTxt();
             _currentWave++;
+            StartWaveButton.transform.gameObject.SetActive(false);
+            isActive = false;
         }
     }
 
