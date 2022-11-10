@@ -12,13 +12,13 @@ public class GameManager : MonoBehaviour
     [SerializeField] TextMeshProUGUI _waveTxt;
 
     private Wavemanager _waveManager;
-    private int _currentWave = 0;
     private int _gameSpeed = 1;
     private SellPieces _dragDrop;
 
     [HideInInspector]
     public int width;
     public int height;
+    public int _currentWave = 0;
 
     public Phases Phases = Phases.InitialPhase;
 
@@ -32,6 +32,8 @@ public class GameManager : MonoBehaviour
     public GameObject StartWaveButton;
     public float GoldBoost;
 
+    public bool WaveInProgress = false;
+
     private void Start()
     {
         _waveManager = FindObjectOfType<Wavemanager>();
@@ -43,19 +45,19 @@ public class GameManager : MonoBehaviour
         if (_gameSpeed == 1)
         {
             _gameSpeed = 2;
-            _speedTxt.text = ">>";
+            _speedTxt.text = "2x";
             ChangeSpeed();
         }
         else if (_gameSpeed == 2)
         {
             _gameSpeed = 4;
-            _speedTxt.text = ">>>";
+            _speedTxt.text = "3x";
             ChangeSpeed();
         }
         else if (_gameSpeed == 4)
         {
             _gameSpeed = 1;
-            _speedTxt.text = ">";
+            _speedTxt.text = "1x";
             ChangeSpeed();
         }
     }
@@ -76,6 +78,8 @@ public class GameManager : MonoBehaviour
             _waveManager.SpawnWave(_currentWave);
             WaveTxt();
             _currentWave++;
+            StartWaveButton.transform.gameObject.SetActive(false);
+            WaveInProgress = true;
         }
     }
 

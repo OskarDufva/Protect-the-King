@@ -11,6 +11,7 @@ public class Knight : MonoBehaviour
 
     public List<Vector2Int> _targetedTiles = new List<Vector2Int>();
     private KnightPlacement _knightplacement;
+    private Animator _animator;
 
     private float timer = 0.0f;
 
@@ -20,6 +21,7 @@ public class Knight : MonoBehaviour
     {
         _gameManager = FindObjectOfType<GameManager>();
         _knightplacement = FindObjectOfType<KnightPlacement>();
+        _animator = GetComponent<Animator>();
         GetTargetedTiles();
     }
 
@@ -31,6 +33,10 @@ public class Knight : MonoBehaviour
         {
             DealDamage();
             timer = 0;
+            if (_gameManager.WaveInProgress)
+            {
+                _animator.Play("Base Layer.knightstompanim", 0, 0.25f);
+            }
         }
 
     }

@@ -11,6 +11,7 @@ public class Pawn : MonoBehaviour
 
     public List<Vector2Int> _targetedTiles = new List<Vector2Int>();
     private PawnPlacement pawnplacement;
+    private Animator _animator;
 
     private float timer = 0.0f;
 
@@ -20,6 +21,7 @@ public class Pawn : MonoBehaviour
     {
         _gameManager = FindObjectOfType<GameManager>();
         pawnplacement = FindObjectOfType<PawnPlacement>();
+        _animator = GetComponent<Animator>();
         GetTargetedTiles();
     }
 
@@ -30,6 +32,10 @@ public class Pawn : MonoBehaviour
         {
             DealDamage();
             timer = 0;
+            if (_gameManager.WaveInProgress)
+            {
+                _animator.Play("Base Layer.pawnstompanim", 0, 0.25f);
+            }
         }
 
     }
