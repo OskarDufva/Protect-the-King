@@ -32,6 +32,8 @@ public class GameManager : MonoBehaviour
     public GameObject StartWaveButton;
     public float GoldBoost;
 
+    private bool isActive;
+
     private void Start()
     {
         _waveManager = FindObjectOfType<Wavemanager>();
@@ -43,19 +45,19 @@ public class GameManager : MonoBehaviour
         if (_gameSpeed == 1)
         {
             _gameSpeed = 2;
-            _speedTxt.text = ">>";
+            _speedTxt.text = "2x";
             ChangeSpeed();
         }
         else if (_gameSpeed == 2)
         {
             _gameSpeed = 4;
-            _speedTxt.text = ">>>";
+            _speedTxt.text = "3x";
             ChangeSpeed();
         }
         else if (_gameSpeed == 4)
         {
             _gameSpeed = 1;
-            _speedTxt.text = ">";
+            _speedTxt.text = "1x";
             ChangeSpeed();
         }
     }
@@ -76,6 +78,8 @@ public class GameManager : MonoBehaviour
             _waveManager.SpawnWave(_currentWave);
             WaveTxt();
             _currentWave++;
+            StartWaveButton.transform.gameObject.SetActive(false);
+            isActive = false;
         }
     }
 
