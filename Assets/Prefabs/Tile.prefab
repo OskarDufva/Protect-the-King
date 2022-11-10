@@ -287,16 +287,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d58407965dcc44449f375c4fce144c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.8509804}
-  _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.9411765}
-  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 1}
-  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 1}
-  KingSpot: 0
-  _kingSpotBoost: 0
+  _highlightColor: {r: 1, g: 0.9126386, b: 0.2235294, a: 0.27450982}
+  _attackHighlightColor: {r: 0.6981132, g: 0.06915272, b: 0.06915272, a: 0.78431374}
+  _validPawnPlacementColor: {r: 0.41985583, g: 0.5058725, b: 0.8018868, a: 0.27450982}
+  _inValidPawnPlacementColor: {r: 0.6415094, g: 0.24510503, b: 0.24510503, a: 0.27450982}
   _kingBoostText: {fileID: 4320719458278800742}
   Tower: {fileID: 0}
   TileTxt: {fileID: 495841810830407855}
   EnemyPathTile: 0
+  KingSpot: 0
+  _kingSpotBoost: 0
   OccupiedTile: 0
   Index: {x: 0, y: 0}
 --- !u!65 &8278553734449625919
