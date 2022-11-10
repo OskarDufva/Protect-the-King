@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8495332502935721686}
   - component: {fileID: 5905722031824984440}
   m_Layer: 5
-  m_Name: RestartButton
+  m_Name: NextLevelButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -68,7 +68,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1ac7c7225f5b4bd40ba2f54a1ae6a837, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0d16f28a074459b49bade2ba81029830, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -169,7 +169,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 47}
+  m_AnchoredPosition: {x: 0, y: 15}
   m_SizeDelta: {x: 260.1609, y: 139.5843}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6851367920921311441
@@ -200,7 +200,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Game Over
+  m_text: Victory!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 07fa24983d349854a9e8fb16c38da4fc, type: 2}
   m_sharedMaterial: {fileID: 2930041894836713698, guid: 07fa24983d349854a9e8fb16c38da4fc, type: 2}
@@ -302,10 +302,10 @@ RectTransform:
   m_Father: {fileID: 3869759611063541209}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.3037542, y: 0.2564865}
-  m_AnchorMax: {x: 0.69637126, y: 0.768}
+  m_AnchorMin: {x: 0.1475084, y: 0.2564865}
+  m_AnchorMax: {x: 0.8524916, y: 0.768}
   m_AnchoredPosition: {x: -0.016143799, y: -0.4208498}
-  m_SizeDelta: {x: -0.032299995, y: -0.8417}
+  m_SizeDelta: {x: 0.032257, y: -0.8417}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &383428348680852197
 CanvasRenderer:
@@ -335,9 +335,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Retry
-
-'
+  m_text: Next Level
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 07fa24983d349854a9e8fb16c38da4fc, type: 2}
   m_sharedMaterial: {fileID: 2930041894836713698, guid: 07fa24983d349854a9e8fb16c38da4fc, type: 2}
@@ -553,7 +551,7 @@ GameObject:
   - component: {fileID: 8868838156434982778}
   - component: {fileID: 591552750972448786}
   m_Layer: 5
-  m_Name: GameOverScreen
+  m_Name: GameVictory
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
