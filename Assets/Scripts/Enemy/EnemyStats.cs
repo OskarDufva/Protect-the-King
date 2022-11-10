@@ -14,8 +14,8 @@ public class EnemyStats : MonoBehaviour
 
     public Image healthBar;
 
-    private CurrencySystem _currencySystem;
 
+    private CurrencySystem _currencySystem;
     private bool _touchKing;
 
     private void Start()
