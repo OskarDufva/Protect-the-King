@@ -5,18 +5,38 @@ using UnityEngine.SceneManagement;
 
 public class GameModeScript : MonoBehaviour
 {
-    public void GoBackToMainMenu ()
+    public Animator transition;
+    public float transitionTime = 5f;
+    string currentScene;
+
+    void Start()
+    {
+        currentScene = (SceneManager.GetActiveScene()).name;
+
+        if (currentScene == "Alexanders Scene")
+        {
+            transition.SetTrigger("Start");
+        }
+    }
+    public void GoBackToMainMenu()
     {
         SceneManager.LoadScene("MainMenu");
     }
-    
+
     public void StartTutorial()
     {
-        SceneManager.LoadScene("Assets Level");
+        StartCoroutine(LoadLevel("Alexanders Scene"));
     }
 
     public void StartCampaign()
     {
         SceneManager.LoadScene("CampaignScene");
+    }
+
+    IEnumerator LoadLevel(string sceneName)
+    {
+        transition.SetTrigger("FadeIn");
+        yield return new WaitForSeconds(transitionTime);
+        SceneManager.LoadScene(sceneName);
     }
 }
