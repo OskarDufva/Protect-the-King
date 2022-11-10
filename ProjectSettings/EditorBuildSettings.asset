@@ -9,12 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 63aa60d42ca25e448bfb40333e6e6229
   - enabled: 1
-    path: Assets/Scenes/GameModes.unity
-    guid: 7dfd3afbbc7ff3d42a73650e8dc6cf00
-  - enabled: 1
-    path: Assets/Scenes/Assets Level.unity
-    guid: e1a6ffd99d860b34ca19d1ed7d62f016
-  - enabled: 1
     path: Assets/Scenes/Alexanders Scene.unity
     guid: d68f3fac9a673104a90b74da6cc4b636
   m_configObjects: {}
