@@ -162,7 +162,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.41700003, y: 0.24029353}
   m_AnchorMax: {x: 0.599727, y: 0.77353245}
-  m_AnchoredPosition: {x: 0.94937897, y: -0.11627197}
+  m_AnchoredPosition: {x: 0.94937134, y: -0.11627197}
   m_SizeDelta: {x: -1.6988401, y: -0.5433006}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &163677494
@@ -431,7 +431,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &227857578
 MonoBehaviour:
@@ -797,7 +797,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.16000001, y: 0.24029353}
   m_AnchorMax: {x: 0.35300002, y: 0.77353245}
-  m_AnchoredPosition: {x: -0.035186768, y: 2.776001}
+  m_AnchoredPosition: {x: -0.035217285, y: 2.776001}
   m_SizeDelta: {x: -7.9296, y: -6.5621}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &797367384
@@ -847,6 +847,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1943768529}
         m_TargetAssemblyTypeName: GameModeScript, Assembly-CSharp
         m_MethodName: StartTutorial
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: MusicControlScript, Assembly-CSharp
+        m_MethodName: DestroyMusic
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1069,7 +1081,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1331676182
 GameObject:
@@ -1242,7 +1254,7 @@ RectTransform:
   m_Children:
   - {fileID: 608671135}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1295,10 +1307,10 @@ RectTransform:
   m_Father: {fileID: 608671135}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -390, y: 250}
-  m_SizeDelta: {x: 103.5705, y: 36.6216}
+  m_AnchorMin: {x: 0, y: 0.89500004}
+  m_AnchorMax: {x: 0.112, y: 1}
+  m_AnchoredPosition: {x: -8.214783, y: 3.2000122}
+  m_SizeDelta: {x: -16.429504, y: -17.378418}
   m_Pivot: {x: 0.5000008, y: 0.50000066}
 --- !u!114 &2093763879
 MonoBehaviour:
