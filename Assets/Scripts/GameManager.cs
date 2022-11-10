@@ -12,13 +12,13 @@ public class GameManager : MonoBehaviour
     [SerializeField] TextMeshProUGUI _waveTxt;
 
     private Wavemanager _waveManager;
-    private int _currentWave = 0;
     private int _gameSpeed = 1;
     private SellPieces _dragDrop;
 
     [HideInInspector]
     public int width;
     public int height;
+    public int _currentWave = 0;
 
     public Phases Phases = Phases.InitialPhase;
 

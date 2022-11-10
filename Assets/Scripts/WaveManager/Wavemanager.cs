@@ -14,6 +14,8 @@ public class Wavemanager : MonoBehaviour
     private float Boost;
     private int _enemiesInWave;
     private int _enemiesSpawned;
+    private int _totalWaveCount;
+    private int _waveCount;
 
 
     private void Start()
@@ -27,6 +29,8 @@ public class Wavemanager : MonoBehaviour
         {
             GameManager = FindObjectOfType<GameManager>();
         }
+
+        _totalWaveCount = WaveAmountCounter();
     }
 
     public int WaveAmountCounter()
@@ -40,10 +44,17 @@ public class Wavemanager : MonoBehaviour
         int enemy = FindObjectsOfType<EnemyStats>().Length;
         if (enemy <= 1 && _enemiesSpawned == _enemiesInWave)
         {
+            if (GameManager._currentWave == _totalWaveCount)
+            {
+                //win game screen enable here
+                print("winn screen");
+                return;
+            }
             _currencySystem.ChangeGold(_goldThisWave);
             GameManager.ChangePhases(Phases.PreparationPhase);
             GameManager.StartWaveButton.transform.gameObject.SetActive(true);
         }
+
     }
 
     public void SpawnWave(int waveCount)
