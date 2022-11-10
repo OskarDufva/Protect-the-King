@@ -32,7 +32,8 @@ public class PathFinding : MonoBehaviour
     [SerializeField] private PathfindingData saveToData;
 
     [Header("Visual")]
-    [SerializeField] private Gradient _gradient; 
+    [SerializeField] private Gradient _gradient;
+    [SerializeField] private bool _useGradient;
 
     private List<List<Tile>> Listtoendalllists = new List<List<Tile>>();
     private List<TileData> Listtoendalljoblists = new List<TileData>();
@@ -141,7 +142,10 @@ public class PathFinding : MonoBehaviour
         for (int i = 0; i < actualListlistToenalllists.Count; i++)
         {
             float value = (float)i / (float)actualListlistToenalllists.Count;
+            if (_useGradient)
+            {
             _tiles[actualListlistToenalllists[i].Index].ChangeColor(_gradient.Evaluate(value));
+            }
         }
     }
 
@@ -262,7 +266,10 @@ public class PathFinding : MonoBehaviour
             _tiles[i].Walked = false;
             if (_tiles[i].EnemyPathTile)
             {
-                _tiles[i].ChangeColor(Color.gray);
+                if (_useGradient)
+                {
+                    _tiles[i].ChangeColor(Color.gray);
+                }
             }
             
         }
