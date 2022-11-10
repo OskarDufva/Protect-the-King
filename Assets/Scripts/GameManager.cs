@@ -25,6 +25,7 @@ public class GameManager : MonoBehaviour
     public Tile _CurrentHoveredTile;
 
     [SerializeField] private GameObject _gameOverUI;
+    [SerializeField] private GameObject _VictoryUI;
 
     public TileArray[] Tiles;
     [SerializeField] public TileArray[] EmptyTiles;
@@ -156,6 +157,11 @@ public class GameManager : MonoBehaviour
     public void GameOver()
     {
         _gameOverUI.SetActive(true);
+    }
+
+    public void Victory()
+    {
+        _VictoryUI.SetActive(true);
     }
 
     public void Restart()
