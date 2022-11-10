@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5647230299034197302}
   - component: {fileID: 1922590151005163991}
   - component: {fileID: 6676503290526919794}
+  - component: {fileID: -312170069104609427}
   m_Layer: 3
   m_Name: Knight
   m_TagString: Untagged
@@ -146,3 +147,23 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
+--- !u!95 &-312170069104609427
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027195559047122639}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fe56ef349604b7a488c2b6a6d41fa21a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

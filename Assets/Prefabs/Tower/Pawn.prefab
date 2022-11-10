@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2022042855766549533}
   - component: {fileID: 7220053477819215106}
   - component: {fileID: 8735983462750937236}
+  - component: {fileID: 6602511196604274147}
   m_Layer: 3
   m_Name: Pawn
   m_TagString: Untagged
@@ -134,7 +135,7 @@ MonoBehaviour:
   - {x: 0.16175325, y: -0.10779033, z: 0}
   m_ShapePathHash: -1988085570
   m_Mesh: {fileID: 0}
-  m_InstanceId: 60628
+  m_InstanceId: 101916
 --- !u!225 &8735983462750937236
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -147,3 +148,23 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
+--- !u!95 &6602511196604274147
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027195559047122639}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f0fef6440af437742b5d4e1b41b5b72a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

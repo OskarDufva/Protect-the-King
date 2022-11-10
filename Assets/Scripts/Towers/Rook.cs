@@ -11,6 +11,7 @@ public class Rook : MonoBehaviour
 
     public List<Vector2Int> _targetedTiles = new List<Vector2Int>();
     private RookPlacement _rookplacement;
+    private Animator _animator;
 
     private float timer = 0.0f;
 
@@ -20,6 +21,7 @@ public class Rook : MonoBehaviour
     {
         _gameManager = FindObjectOfType<GameManager>();
         _rookplacement = FindObjectOfType<RookPlacement>();
+        _animator = GetComponent<Animator>();
         GetTargetedTiles();
     }
 
@@ -30,6 +32,8 @@ public class Rook : MonoBehaviour
         if (timer > _attackSpeed)
         {
             DealDamage();
+            print("deal damage rook");
+            _animator.Play("Base Layer.rookstompanim", 0, 0.25f);
             timer = 0;
         }
 
