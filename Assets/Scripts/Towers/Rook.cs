@@ -33,8 +33,11 @@ public class Rook : MonoBehaviour
         {
             DealDamage();
             print("deal damage rook");
-            _animator.Play("Base Layer.rookstompanim", 0, 0.25f);
             timer = 0;
+            if (_gameManager.WaveInProgress)
+            {
+                _animator.Play("Base Layer.rookstompanim", 0, 0.25f);
+            }
         }
 
     }
