@@ -12,7 +12,7 @@ public class GameModeScript : MonoBehaviour
     
     public void StartTutorial()
     {
-        SceneManager.LoadScene("Anthon");
+        SceneManager.LoadScene("Assets Level");
     }
 
     public void StartCampaign()

@@ -8,7 +8,7 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Towers
   - Water
   - UI
   - Enemy
@@ -43,4 +43,28 @@ TagManager:
     locked: 0
   - name: Background
     uniqueID: 3171161131
+    locked: 0
+  - name: Row 0
+    uniqueID: 3652243533
+    locked: 0
+  - name: Row 1
+    uniqueID: 1600986531
+    locked: 0
+  - name: Row 2
+    uniqueID: 1857760379
+    locked: 0
+  - name: Row 3
+    uniqueID: 3527611815
+    locked: 0
+  - name: Row 4
+    uniqueID: 713857069
+    locked: 0
+  - name: Row 5
+    uniqueID: 2729345003
+    locked: 0
+  - name: Row 6
+    uniqueID: 3616727733
+    locked: 0
+  - name: Row 7
+    uniqueID: 1526754705
     locked: 0

@@ -14,8 +14,8 @@ public class EnemyStats : MonoBehaviour
 
     public Image healthBar;
 
-    private CurrencySystem _currencySystem;
 
+    private CurrencySystem _currencySystem;
     private bool _touchKing;
 
     private void Start()
@@ -56,6 +56,7 @@ public class EnemyStats : MonoBehaviour
         if (health <= 0)
         {
             _wavemanager.EnemyDeath();
+            Destroy(gameObject);
         }
     }
     private void OnDestroy()
