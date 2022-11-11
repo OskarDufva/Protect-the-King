@@ -33,8 +33,11 @@ public class Bishop : MonoBehaviour
         {
             DealDamage();
             print("dealt damage");
-            _animator.Play("Base Layer.bishopstompanim" ,0, 0.25f);
             timer = 0;
+            if (_gameManager.WaveIsActive)
+            {
+                _animator.Play("Base Layer.bishopstompanim" ,0, 0.25f);
+            }
         }
 
     }
