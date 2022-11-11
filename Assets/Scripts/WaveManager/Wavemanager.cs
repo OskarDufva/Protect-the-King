@@ -54,6 +54,7 @@ public class Wavemanager : MonoBehaviour
             _currencySystem.ChangeGold(_goldThisWave);
             GameManager.ChangePhases(Phases.PreparationPhase);
             GameManager.StartWaveButton.transform.gameObject.SetActive(true);
+            GameManager.WaveIsActive = false;
         }
 
     }
