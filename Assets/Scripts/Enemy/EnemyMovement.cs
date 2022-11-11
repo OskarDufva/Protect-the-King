@@ -4,17 +4,14 @@ using System.Threading.Tasks;
 using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
-{
-    [SerializeField]
-    private PathfindingData pathData;
-
-    [SerializeField]
+{    [SerializeField]
     private float moveSpeed;
-
+    private GameManager _gameManager;
     private int index = 0;
 
     private void Start()
     {
+        _gameManager = FindObjectOfType<GameManager>();
         HandleMovement();
     }
 
@@ -22,7 +19,7 @@ public class EnemyMovement : MonoBehaviour
     {
         index = 0;
 
-        while (index < pathData.TilePath.Count)
+        while (index < _gameManager.EnemyPathFinding.Count)
         {
             await Move();
         }
@@ -33,7 +30,7 @@ public class EnemyMovement : MonoBehaviour
         float t = 0;
 
         Vector3 startPosition = transform.position;
-        Vector3 targetPosition = pathData.TilePath[index++];
+        Vector3 targetPosition = _gameManager.EnemyPathFinding[index++];
 
         while (t <= 1.0f)
         {

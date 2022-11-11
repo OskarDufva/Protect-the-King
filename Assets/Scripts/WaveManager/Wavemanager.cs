@@ -8,6 +8,7 @@ public class Wavemanager : MonoBehaviour
     public GameManager GameManager;
     public int EnemiesAlive = 0;
     public WaveList[] _waveList;
+    public bool ReadyForNewWave = false;
    
     private CurrencySystem _currencySystem;
     private int _goldThisWave;
@@ -16,6 +17,7 @@ public class Wavemanager : MonoBehaviour
     private int _enemiesSpawned;
     private int _totalWaveCount;
     private int _waveCount;
+    private float timer = 0.0f;
 
 
     private void Start()
@@ -33,6 +35,40 @@ public class Wavemanager : MonoBehaviour
         _totalWaveCount = WaveAmountCounter();
     }
 
+    private void Update()
+    {
+        if (GameManager.WaveIsActive)
+        {
+            timer += Time.deltaTime;
+        }
+
+        if (timer > 1)
+        {
+            int enemy = FindObjectsOfType<EnemyStats>().Length;
+            if (enemy <= 0 && _enemiesInWave == _enemiesSpawned)
+            {
+                print("new wave is ready");
+                NextWave();
+            }
+            timer = 0;
+        }
+    }
+
+    private void NextWave()
+    {
+        if (GameManager._currentWave == _totalWaveCount)
+        {
+            Destroy(FindObjectOfType<King>().gameObject);
+            GameManager.Victory();
+            print("victory");
+            return;
+        }
+        _currencySystem.ChangeGold(_goldThisWave);
+        GameManager.ChangePhases(Phases.PreparationPhase);
+        GameManager.StartWaveButton.transform.gameObject.SetActive(true);
+        GameManager.WaveIsActive = false;
+    }
+
     public int WaveAmountCounter()
     {
         return _waveList.Length;
@@ -41,21 +77,6 @@ public class Wavemanager : MonoBehaviour
     //Call this everytime an enemy dies to reduce the counter so we know when all enemies have died
     public void EnemyDeath()
     {
-        int enemy = FindObjectsOfType<EnemyStats>().Length;
-        if (enemy <= 1 && _enemiesSpawned == _enemiesInWave)
-        {
-            if (GameManager._currentWave == _totalWaveCount)
-            {
-                Destroy(FindObjectOfType<King>().gameObject);
-                GameManager.Victory();
-                print("winn screen");
-                return;
-            }
-            _currencySystem.ChangeGold(_goldThisWave);
-            GameManager.ChangePhases(Phases.PreparationPhase);
-            GameManager.StartWaveButton.transform.gameObject.SetActive(true);
-            GameManager.WaveIsActive = false;
-        }
 
     }
 

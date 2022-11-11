@@ -33,6 +33,8 @@ public class GameManager : MonoBehaviour
     public GameObject StartWaveButton;
     public float GoldBoost;
     public bool WaveIsActive;
+
+    public List<Vector3> EnemyPathFinding = new List<Vector3>();
     
 
     private void Start()
@@ -81,6 +83,7 @@ public class GameManager : MonoBehaviour
             _currentWave++;
             StartWaveButton.transform.gameObject.SetActive(false);
             WaveIsActive = true;
+            _waveManager.ReadyForNewWave = true;
         }
     }
 

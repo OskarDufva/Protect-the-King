@@ -32,7 +32,6 @@ public class Rook : MonoBehaviour
         if (timer > _attackSpeed)
         {
             DealDamage();
-            print("deal damage rook");
             timer = 0;
             if (_gameManager.WaveIsActive)
             {
