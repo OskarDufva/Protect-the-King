@@ -46,14 +46,14 @@ public class Wavemanager : MonoBehaviour
         {
             if (GameManager._currentWave == _totalWaveCount)
             {
-                GameManager.GameOver();
+                Destroy(FindObjectOfType<King>().gameObject);
+                GameManager.Victory();
                 print("winn screen");
                 return;
             }
             _currencySystem.ChangeGold(_goldThisWave);
             GameManager.ChangePhases(Phases.PreparationPhase);
             GameManager.StartWaveButton.transform.gameObject.SetActive(true);
-            GameManager.WaveInProgress = false;
         }
 
     }
