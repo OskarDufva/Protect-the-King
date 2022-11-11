@@ -112,7 +112,6 @@ public class Tile : MonoBehaviour
         {
             if (enemiesOnTile[i] == null)
             {
-                print("it was null");
                 enemiesOnTile.RemoveAt(i--);
             }
         }
@@ -230,7 +229,6 @@ public class Tile : MonoBehaviour
         {
             SpriteRenderer tempTower = Tower.GetComponent<SpriteRenderer>();
             tempTower.sortingOrder = _gameManager.height - Index.y;
-            print("Sorted the order");
         }
     }
 
