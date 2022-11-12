@@ -28,9 +28,6 @@ public class PathFinding : MonoBehaviour
     [Space(5)]
     public List<Tile> _tiles = new List<Tile>();
 
-    [Header("Saving")]
-    [SerializeField] private PathfindingData saveToData;
-
     [Header("Visual")]
     [SerializeField] private Gradient _gradient;
     [SerializeField] private bool _useGradient;
@@ -39,10 +36,7 @@ public class PathFinding : MonoBehaviour
     private List<TileData> Listtoendalljoblists = new List<TileData>();
 
     [ContextMenu("DOOOOMS DAY")]
-    private void start ()
-    {
-        VeryFun();
-    }
+
     public async void Fun()
     {
         Listtoendalllists.Clear();
@@ -135,7 +129,7 @@ public class PathFinding : MonoBehaviour
             {
                 posistions.Add(_tiles[actualListlistToenalllists[i].Index].transform.position);
             }
-            saveToData.TilePath = posistions;
+            FindObjectOfType<GameManager>().EnemyPathFinding = posistions;
         }
 
         Reset();
@@ -174,7 +168,7 @@ public class PathFinding : MonoBehaviour
         else
         {
             print("Best Found: <color=green>" + Listtoendalllists[index].Count + "</color>");
-            saveToData.TilePath = Listtoendalllists[index].Select(x => x.transform.position).ToList();
+            FindObjectOfType<GameManager>().EnemyPathFinding = Listtoendalllists[index].Select(x => x.transform.position).ToList();
             if (FindObjectOfType<EnemyMovement>())
             {
                 FindObjectOfType<EnemyMovement>().HandleMovement();
