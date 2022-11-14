@@ -12,6 +12,7 @@ public class GridManager : MonoBehaviour
     [SerializeField] private Tile _tilePrefab;
     [SerializeField] private Transform _cam;
 
+    //creates the grid when pressing create grid button
     [ContextMenu("Generate Grid")]
     public void GenerateGrid()
     {

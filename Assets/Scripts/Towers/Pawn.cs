@@ -17,6 +17,7 @@ public class Pawn : MonoBehaviour
 
     public int SellGold;
 
+    //runs code when the game starts
     private void Start()
     {
         _gameManager = FindObjectOfType<GameManager>();
@@ -25,6 +26,7 @@ public class Pawn : MonoBehaviour
         GetTargetedTiles();
     }
 
+    //runs every frame
     private void Update()
     {
         timer += Time.deltaTime;
@@ -40,6 +42,7 @@ public class Pawn : MonoBehaviour
 
     }
 
+    //get the list of target tiles
     private void GetTargetedTiles()
     {
         for (int i = 0; i < pawnplacement.PossibleValids.Count; i++)
@@ -47,6 +50,8 @@ public class Pawn : MonoBehaviour
             _targetedTiles.Add(pawnplacement.PossibleValids[i]);
         }
     }
+
+    //deals damage on the targeted tiles
     private void DealDamage()
     {
         for (int i = 0; i < _targetedTiles.Count; i++)

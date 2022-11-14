@@ -35,14 +35,16 @@ public class GameManager : MonoBehaviour
     public bool WaveIsActive;
 
     public List<Vector3> EnemyPathFinding = new List<Vector3>();
-    
 
+    //runs code when the game starts
     private void Start()
     {
         _waveManager = FindObjectOfType<Wavemanager>();
         _dragDrop = FindObjectOfType<SellPieces>();
         WaveTxt();
     }
+
+    //detimantes the gamespeed
     public void GameSpeedChange()
     {
         if (_gameSpeed == 1)
@@ -53,11 +55,11 @@ public class GameManager : MonoBehaviour
         }
         else if (_gameSpeed == 2)
         {
-            _gameSpeed = 4;
+            _gameSpeed = 3;
             _speedTxt.text = "3x";
             ChangeSpeed();
         }
-        else if (_gameSpeed == 4)
+        else if (_gameSpeed == 3)
         {
             _gameSpeed = 1;
             _speedTxt.text = "1x";
@@ -65,11 +67,13 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    //set the game speed
     private void ChangeSpeed()
     {
         Time.timeScale = _gameSpeed;
     }
 
+    //spawns the next wave
     public void NextWave()
     {
         if (_waveManager.EnemiesAlive <= 0 && Phases == Phases.PreparationPhase)
@@ -87,17 +91,20 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    //code to change the phases
     public void ChangePhases(Phases newPhase)
     {
         Phases = newPhase;
     }
 
+    //handles the wave text counter
     private void WaveTxt()
     {
         int value = _currentWave + 1;
         _waveTxt.text = "Wave: " + value + "/" + _waveManager.WaveAmountCounter().ToString();
     }
 
+    //finds all the unocupied tiles
     public void HighlightUnoccupiedTiles(bool KingPlacement)
     {
         if(KingPlacement == false)
@@ -144,6 +151,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    //Resets colors hides the kingboost text and orders the towrs sorting layer
     public void ResetColors()
     {
         for (int x = 0; x < Tiles.Length; x++)

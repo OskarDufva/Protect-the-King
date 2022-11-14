@@ -77,6 +77,7 @@ public class Placement : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, 
         
     }
 
+    //When player starts to drag the icon runs this code once
     public void OnBeginDrag(PointerEventData eventData)
     {
         _canvasGroup.alpha = 0.6f;
@@ -84,6 +85,7 @@ public class Placement : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, 
         IsDragging = true;
     }
 
+    //every time mouse moves it will run this code
     public void OnDrag(PointerEventData eventData)
     {
         _rectTransform.anchoredPosition += eventData.delta / _canvas.scaleFactor;
@@ -91,6 +93,7 @@ public class Placement : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, 
         DisplayAttack(true);
     }
 
+    //when stop dragging (let go of object) will run this code once
     public void OnEndDrag(PointerEventData eventData)
     {
         _canvasGroup.alpha = 1f;
@@ -101,11 +104,13 @@ public class Placement : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, 
         IsDragging = false;
     }
 
+    //not sure why this is here but when i deleted it and it broke the sctipts so its chilling here
     public void OnPointerDown(PointerEventData eventData)
     {
 
     }
 
+    //resets the colors for all the tiles
     private void ResetColors()
     {
         for (int i = 0; i < PossibleValids.Count; i++)
@@ -114,6 +119,7 @@ public class Placement : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, 
         }
     }
 
+    //displayes the attacks based on the valid tiles (valid tiles that are in the grid)
     private void DisplayAttack(bool run = false)
     {
         _gameManager.HighlightUnoccupiedTiles(_placeKing);
@@ -131,6 +137,7 @@ public class Placement : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, 
 
     }
 
+    //gets the valid it attackable positions based on information given
     private void GetValidPositions(Direction direction, bool run)
     {
         if (_gameManager._CurrentHoveredTile.Index == ValidIndex && run == false)
