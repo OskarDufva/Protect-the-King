@@ -4,17 +4,20 @@ using System.Threading.Tasks;
 using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
-{    [SerializeField]
-    private float moveSpeed;
+{   
+    [SerializeField] private float moveSpeed;
+
     private GameManager _gameManager;
     private int index = 0;
 
+    //runs code when the game starts
     private void Start()
     {
         _gameManager = FindObjectOfType<GameManager>();
         HandleMovement();
     }
 
+    //starts the movment 
     public async void HandleMovement()
     {
         index = 0;
@@ -25,6 +28,8 @@ public class EnemyMovement : MonoBehaviour
         }
     }
 
+    //makes the enemy move to though the list setup in the gamemanager
+    //to remove the step by step remove smoot Mathf.SmoothStep(0.0f, 1.0f, t) and replace it with "t"
     public async Task Move()
     {
         float t = 0;

@@ -17,6 +17,7 @@ public class Rook : MonoBehaviour
 
     public int SellGold;
 
+    //runs code when the game starts
     private void Start()
     {
         _gameManager = FindObjectOfType<GameManager>();
@@ -25,6 +26,7 @@ public class Rook : MonoBehaviour
         GetTargetedTiles();
     }
 
+    //runs every frame
     private void Update()
     {
         timer += Time.deltaTime;
@@ -41,6 +43,7 @@ public class Rook : MonoBehaviour
 
     }
 
+    //get the list of target tiles
     private void GetTargetedTiles()
     {
         for (int i = 0; i < _rookplacement.PossibleValids.Count; i++)
@@ -48,6 +51,8 @@ public class Rook : MonoBehaviour
             _targetedTiles.Add(_rookplacement.PossibleValids[i]);
         }
     }
+
+    //deals damage on the targeted tiles
     private void DealDamage()
     {
         for (int i = 0; i < _targetedTiles.Count; i++)

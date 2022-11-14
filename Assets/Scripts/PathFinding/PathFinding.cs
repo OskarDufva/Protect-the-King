@@ -12,7 +12,7 @@ using Unity.VisualScripting;
 using Unity.VisualScripting.FullSerializer;
 using UnityEngine;
 using UnityEngine.Tilemaps;
-
+//No idea how this works now as its multithreading and runs fast but i didnt code this
 public class PathFinding : MonoBehaviour
 {
     [Header("Algo")]

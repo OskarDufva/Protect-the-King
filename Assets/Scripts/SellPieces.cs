@@ -11,13 +11,11 @@ public class SellPieces : MonoBehaviour, IPointerDownHandler, IBeginDragHandler,
 
     private RectTransform _rectTransform;
     private CanvasGroup _canvasGroup;
-    private PiecePlacement _placement;
     private GameManager _gameManager;
 
     public bool IsDragging = false;
 
     private List<Vector2Int> valid = new List<Vector2Int>();
-    private Vector2Int ValidIndex;
     private CurrencySystem _currencySystem;
 
     private void Awake()
@@ -25,22 +23,22 @@ public class SellPieces : MonoBehaviour, IPointerDownHandler, IBeginDragHandler,
         _currencySystem = FindObjectOfType<CurrencySystem>();
         _rectTransform = GetComponent<RectTransform>();
         _canvasGroup = GetComponent<CanvasGroup>();
-        _placement = GetComponent<PiecePlacement>();
         _gameManager = FindObjectOfType<GameManager>();
     }
 
+    //When player starts to drag the icon runs this code once
     public void OnBeginDrag(PointerEventData eventData)
     {
         _canvasGroup.alpha = 0.6f;
-        DisplayAttack();
     }
 
+    //every time mouse moves it will run this code
     public void OnDrag(PointerEventData eventData)
     {
         _rectTransform.anchoredPosition += eventData.delta / _canvas.scaleFactor;
-        DisplayAttack();
     }
 
+    //when stop dragging (let go of object) will run this code once
     public void OnEndDrag(PointerEventData eventData)
     {
         _canvasGroup.alpha = 1f;
@@ -92,65 +90,18 @@ public class SellPieces : MonoBehaviour, IPointerDownHandler, IBeginDragHandler,
         }
     }
 
+    //not sure why this is here but when i deleted it and it broke the sctipts so its chilling here
     public void OnPointerDown(PointerEventData eventData)
     {
 
     }
 
+    //resets the colors for all the tiles
     private void ResetColors()
     {
         for (int i = 0; i < valid.Count; i++)
         {
             _gameManager.Tiles[valid[i].x].Tiles[valid[i].y].OriginalColor();
         }
-    }
-
-    private void DisplayAttack(bool run = false)
-    {
-        if (_gameManager._CurrentHoveredTile == null)
-        {
-            return;
-        }
-
-        GetValidPositions(run);
-
-        for (int i = 0; i < valid.Count; i++)
-        {
-            _gameManager.Tiles[valid[i].x].Tiles[valid[i].y].AttackColor();
-        }
-    }
-
-    private void GetValidPositions(bool run)
-    {
-        if (_gameManager._CurrentHoveredTile.Index == ValidIndex && run == false)
-        {
-            return;
-        }
-
-        ResetColors();
-
-        valid = new List<Vector2Int>();
-        ValidIndex = _gameManager._CurrentHoveredTile.Index;
-
-        for (int x = 0; x < _gameManager.Tiles.Length; x++)
-        {
-            for (int y = 0; y < _gameManager.Tiles[x].Tiles.Length; y++)
-            {
-                if (_gameManager.Tiles[x].Tiles[y].Tower == null)
-                {
-                    continue;
-                }
-
-                Pawn pawn = _gameManager.Tiles[x].Tiles[y].Tower.GetComponent<Pawn>();
-                Rook rook = _gameManager.Tiles[x].Tiles[y].Tower.GetComponent<Rook>();
-                Bishop bishop = _gameManager.Tiles[x].Tiles[y].Tower.GetComponent<Bishop>();
-                Knight Knight = _gameManager.Tiles[x].Tiles[y].Tower.GetComponent<Knight>();
-                if (pawn != null && rook != null && bishop != null && Knight != null)
-                {
-                    _gameManager.Tiles[x].Tiles[y].ValidPlacementColor();
-                }
-            }
-        }
-
     }
 }
