@@ -13,7 +13,7 @@ public class GameModeScript : MonoBehaviour
     {
         currentScene = (SceneManager.GetActiveScene()).name;
 
-        if (currentScene == "Alexanders Scene")
+        if (currentScene == "TutorialScene")
         {
             transition.SetTrigger("Start");
         }
@@ -25,7 +25,7 @@ public class GameModeScript : MonoBehaviour
 
     public void StartTutorial()
     {
-        StartCoroutine(LoadLevel("Alexanders Scene"));
+        StartCoroutine(LoadLevel("TutorialScene"));
     }
 
     public void StartCampaign()
