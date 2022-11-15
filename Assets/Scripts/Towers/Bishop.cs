@@ -26,7 +26,7 @@ public class Bishop : MonoBehaviour
         GetTargetedTiles();
     }
 
-    //runs every frame
+    //runs every frame deals damage every time timer goes above attacks speed and then resets
     private void Update()
     {
         timer += Time.deltaTime;

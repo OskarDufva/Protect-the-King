@@ -44,7 +44,9 @@ public class GameManager : MonoBehaviour
         WaveTxt();
     }
 
-    //detimantes the gamespeed
+    /// <summary>
+    /// Changes game speed based on the value put in
+    /// </summary>
     public void GameSpeedChange()
     {
         if (_gameSpeed == 1)
@@ -73,7 +75,9 @@ public class GameManager : MonoBehaviour
         Time.timeScale = _gameSpeed;
     }
 
-    //spawns the next wave
+    /// <summary>
+    /// Spawns the next wave and changes phase to action phase
+    /// </summary>
     public void NextWave()
     {
         if (_waveManager.EnemiesAlive <= 0 && Phases == Phases.PreparationPhase)
@@ -91,7 +95,10 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    //code to change the phases
+    /// <summary>
+    /// You can change phase with this funtion
+    /// </summary>
+    /// <param name="newPhase"> Phase to pass in</param>
     public void ChangePhases(Phases newPhase)
     {
         Phases = newPhase;
@@ -104,7 +111,10 @@ public class GameManager : MonoBehaviour
         _waveTxt.text = "Wave: " + value + "/" + _waveManager.WaveAmountCounter().ToString();
     }
 
-    //finds all the unocupied tiles
+    /// <summary>
+    /// hightlights all tiles valid or invalid when called
+    /// </summary>
+    /// <param name="KingPlacement">will check to either call the kings valid tiles or towers valid pawn</param>
     public void HighlightUnoccupiedTiles(bool KingPlacement)
     {
         if(KingPlacement == false)
@@ -151,7 +161,9 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    //Resets colors hides the kingboost text and orders the towrs sorting layer
+    /// <summary>
+    /// Sets colors of all the tiles, hides king boost text and sorts the layer of each tower placed
+    /// </summary>
     public void ResetColors()
     {
         for (int x = 0; x < Tiles.Length; x++)

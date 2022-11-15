@@ -37,7 +37,7 @@ public class Tile : MonoBehaviour
         _kingBoostText.GetComponent<TextMeshPro>().text = "Gold " + _kingSpotBoost.ToString() + "X";
     }
 
-    //when called you can change the wolor of the tile to color you give it when calling the function
+    //when called you can change the color of the tile to color you give it when calling the function
     public void ChangeColor(Color color)
     {
         if (_spriteRenderer == null)
