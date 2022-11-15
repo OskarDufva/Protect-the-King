@@ -11,7 +11,11 @@ public class GridManager : MonoBehaviour
 
     [SerializeField] private Tile _tilePrefab;
     [SerializeField] private Transform _cam;
-
+    /// <summary>
+    ///creates the grid when pressing create grid button based on height and width that are entered
+    /// it will then add all tiles into the pathfinder and gamemanager automaticly
+    /// When creating a new grid will also delete old tiles and all old refrences
+    /// </summary>
     [ContextMenu("Generate Grid")]
     public void GenerateGrid()
     {

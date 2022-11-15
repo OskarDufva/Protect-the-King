@@ -17,6 +17,7 @@ public class Bishop : MonoBehaviour
 
     public int SellGold;
 
+    //runs code when the game starts
     private void Start()
     {
         _gameManager = FindObjectOfType<GameManager>();
@@ -25,6 +26,7 @@ public class Bishop : MonoBehaviour
         GetTargetedTiles();
     }
 
+    //runs every frame deals damage every time timer goes above attacks speed and then resets
     private void Update()
     {
         timer += Time.deltaTime;
@@ -42,6 +44,7 @@ public class Bishop : MonoBehaviour
 
     }
 
+    //get the list of target tiles
     private void GetTargetedTiles()
     {
         for (int i = 0; i < _bishopplacement.PossibleValids.Count; i++)
@@ -49,6 +52,8 @@ public class Bishop : MonoBehaviour
             _targetedTiles.Add(_bishopplacement.PossibleValids[i]);
         }
     }
+
+    //deals damage on the targeted tiles
     private void DealDamage()
     {
         for (int i = 0; i < _targetedTiles.Count; i++)

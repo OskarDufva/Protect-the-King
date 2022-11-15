@@ -33,16 +33,8 @@ public class EnemyStats : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        King king = other.GetComponent<King>();
-        if (king != null)
-        {
-            print("hit the king");
-            
-        }
-    }
 
+    //when enemy takes damage removes health from the enemy and destory it when reaches 0
     public void TakeDamage(float damage)
     {
         health -= damage;
@@ -55,10 +47,11 @@ public class EnemyStats : MonoBehaviour
         //}
         if (health <= 0)
         {
-            _wavemanager.EnemyDeath();
             Destroy(gameObject);
         }
     }
+
+    //runs code when destroyed addes gold to the currency manager
     private void OnDestroy()
     {
         _currencySystem.ChangeGold(GoldGained);

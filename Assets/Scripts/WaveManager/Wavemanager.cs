@@ -19,7 +19,7 @@ public class Wavemanager : MonoBehaviour
     private int _waveCount;
     private float timer = 0.0f;
 
-
+    //runs code when the game starts
     private void Start()
     {
         if (_currencySystem == null)
@@ -54,6 +54,7 @@ public class Wavemanager : MonoBehaviour
         }
     }
 
+    //sets up for the next wave and checks victory
     private void NextWave()
     {
         if (GameManager._currentWave == _totalWaveCount)
@@ -69,17 +70,13 @@ public class Wavemanager : MonoBehaviour
         GameManager.WaveIsActive = false;
     }
 
+    //counts how many waves are in this level
     public int WaveAmountCounter()
     {
         return _waveList.Length;
     }
 
-    //Call this everytime an enemy dies to reduce the counter so we know when all enemies have died
-    public void EnemyDeath()
-    {
-
-    }
-
+    //starts the spawning of enemies
     public void SpawnWave(int waveCount)
     {
         var x = WaveSpawn(_waveList[waveCount]);
@@ -96,6 +93,7 @@ public class Wavemanager : MonoBehaviour
         }
     }
 
+    //Handles the spawning of enemies
     IEnumerator WaveSpawn(WaveList EnemyData)
     {
         GameObject Enemy;

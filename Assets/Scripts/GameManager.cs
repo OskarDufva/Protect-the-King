@@ -35,14 +35,18 @@ public class GameManager : MonoBehaviour
     public bool WaveIsActive;
 
     public List<Vector3> EnemyPathFinding = new List<Vector3>();
-    
 
+    //runs code when the game starts
     private void Start()
     {
         _waveManager = FindObjectOfType<Wavemanager>();
         _dragDrop = FindObjectOfType<SellPieces>();
         WaveTxt();
     }
+
+    /// <summary>
+    /// Changes game speed based on the value put in
+    /// </summary>
     public void GameSpeedChange()
     {
         if (_gameSpeed == 1)
@@ -53,11 +57,11 @@ public class GameManager : MonoBehaviour
         }
         else if (_gameSpeed == 2)
         {
-            _gameSpeed = 4;
+            _gameSpeed = 3;
             _speedTxt.text = "3x";
             ChangeSpeed();
         }
-        else if (_gameSpeed == 4)
+        else if (_gameSpeed == 3)
         {
             _gameSpeed = 1;
             _speedTxt.text = "1x";
@@ -65,11 +69,15 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    //set the game speed
     private void ChangeSpeed()
     {
         Time.timeScale = _gameSpeed;
     }
 
+    /// <summary>
+    /// Spawns the next wave and changes phase to action phase
+    /// </summary>
     public void NextWave()
     {
         if (_waveManager.EnemiesAlive <= 0 && Phases == Phases.PreparationPhase)
@@ -87,17 +95,26 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// You can change phase with this funtion
+    /// </summary>
+    /// <param name="newPhase"> Phase to pass in</param>
     public void ChangePhases(Phases newPhase)
     {
         Phases = newPhase;
     }
 
+    //handles the wave text counter
     private void WaveTxt()
     {
         int value = _currentWave + 1;
         _waveTxt.text = "Wave: " + value + "/" + _waveManager.WaveAmountCounter().ToString();
     }
 
+    /// <summary>
+    /// hightlights all tiles valid or invalid when called
+    /// </summary>
+    /// <param name="KingPlacement">will check to either call the kings valid tiles or towers valid pawn</param>
     public void HighlightUnoccupiedTiles(bool KingPlacement)
     {
         if(KingPlacement == false)
@@ -144,6 +161,9 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Sets colors of all the tiles, hides king boost text and sorts the layer of each tower placed
+    /// </summary>
     public void ResetColors()
     {
         for (int x = 0; x < Tiles.Length; x++)

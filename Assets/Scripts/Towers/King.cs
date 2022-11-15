@@ -9,11 +9,10 @@ public class King : MonoBehaviour
     public int _health;
     public int _maxHealth;
     public TextMeshProUGUI txt_HealthCount;
+    public Vector2Int Position;
 
     private bool isDead;
-
     private GameManager _gameManager;
-    public Vector2Int Position;
 
 
     private void Start()
@@ -23,6 +22,7 @@ public class King : MonoBehaviour
         _health = _maxHealth;
     }
 
+    //the king will take damge based on the value you give the function when calling it
     void TakeDamage(int damage)
     {
 
@@ -36,6 +36,7 @@ public class King : MonoBehaviour
         }
     }
 
+    //when a piece overlaps with the king that holds the enemystats script it will deal damage to the king and kill the enemy
     private void OnTriggerEnter(Collider other)
     {
         EnemyStats enemyStats = other.GetComponent<EnemyStats>();

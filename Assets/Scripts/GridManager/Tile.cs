@@ -23,10 +23,9 @@ public class Tile : MonoBehaviour
     public bool EnemyPathTile;
     public bool KingSpot;
     public float _kingSpotBoost;
+    public Vector2Int Index;
     [HideInInspector]
     public bool OccupiedTile;
-
-    public Vector2Int Index;
 
     public bool Walked { get; set; }
     
@@ -38,6 +37,7 @@ public class Tile : MonoBehaviour
         _kingBoostText.GetComponent<TextMeshPro>().text = "Gold " + _kingSpotBoost.ToString() + "X";
     }
 
+    //when called you can change the color of the tile to color you give it when calling the function
     public void ChangeColor(Color color)
     {
         if (_spriteRenderer == null)
@@ -47,6 +47,7 @@ public class Tile : MonoBehaviour
         _spriteRenderer.color = color;
     }
 
+    //sets the tile color to its original color it started with
     public void OriginalColor()
     {
         if (_spriteRenderer == null)
@@ -56,6 +57,7 @@ public class Tile : MonoBehaviour
         _spriteRenderer.color = _originalColor;
     }
 
+    //turns the color into the color specified for attacks
     public void AttackColor()
     {
         if(_spriteRenderer == null)
@@ -65,6 +67,7 @@ public class Tile : MonoBehaviour
         _spriteRenderer.color = _attackHighlightColor;
     }
 
+    //turns the color into the color specified for validplacements
     public void ValidPlacementColor()
     {
         if (_spriteRenderer == null)
@@ -74,6 +77,7 @@ public class Tile : MonoBehaviour
         _spriteRenderer.color = _validPawnPlacementColor;
     }
 
+    //turns the color into the color specified for Invalidplacements
     public void InvalidPlacementColor()
     {
         if (_spriteRenderer == null)
@@ -83,6 +87,7 @@ public class Tile : MonoBehaviour
         _spriteRenderer.color = _inValidPawnPlacementColor;
     }
 
+    //When an enemy overlaps with the tile colidor it will add it to the tile enemy list
     private void OnTriggerEnter(Collider other)
     {
         EnemyStats enemyStats = other.GetComponent<EnemyStats>();
@@ -97,6 +102,7 @@ public class Tile : MonoBehaviour
         }
     }
 
+    //When an enemy overlaps with the tile colidor it will removes it from the tile enemy list
     private void OnTriggerExit(Collider other)
     {
         EnemyStats enemyStats = other.GetComponent<EnemyStats>();
@@ -106,6 +112,7 @@ public class Tile : MonoBehaviour
         }
     }
 
+    //will deal damage all enemies on the enemylist
     public void DealDamage(float damage)
     {
         for (int i = 0; i < enemiesOnTile.Count; i++)
@@ -131,6 +138,8 @@ public class Tile : MonoBehaviour
         }
     }
 
+    //when hovering over the tile with the mouse will display hightlight and when turns it off when no longer hovering the tile
+    #region Highlight
     private void OnMouseEnter()
     {
         _spriteRenderer.color = _highlightColor;
@@ -159,7 +168,10 @@ public class Tile : MonoBehaviour
         _gameManager._CurrentHoveredTile = null;
 
     }
+    #endregion
 
+    //when hovering over the a tile with a tower on it will display its targeted spots
+    #region AttackSpots
     private void ShowAttackSpots()
     {
         Pawn pawn = _gameManager._CurrentHoveredTile.Tower.GetComponent<Pawn>();
@@ -222,26 +234,6 @@ public class Tile : MonoBehaviour
             }
         }
     }
-
-    public void OrderLayer()
-    {
-        if (Tower != null)
-        {
-            SpriteRenderer tempTower = Tower.GetComponent<SpriteRenderer>();
-            tempTower.sortingOrder = _gameManager.height - Index.y;
-        }
-    }
-
-    public void ShowKingBoost()
-    {
-        _kingBoostText.SetActive(true);
-    }
-
-    public void HideKingBoost()
-    {
-        _kingBoostText.SetActive(false);
-    }
-
     private void HideAttackSpots()
     {
         for (int x = 0; x < _gameManager.Tiles.Length; x++)
@@ -253,4 +245,29 @@ public class Tile : MonoBehaviour
         }
 
     }
+
+    #endregion
+    //Will set the tower on the to correct sorting layer
+    public void OrderLayer()
+    {
+        if (Tower != null)
+        {
+            SpriteRenderer tempTower = Tower.GetComponent<SpriteRenderer>();
+            tempTower.sortingOrder = _gameManager.height - Index.y;
+        }
+    }
+
+    //actives and deactivates the text of the king boost spots
+    #region KingBoost
+    public void ShowKingBoost()
+    {
+        _kingBoostText.SetActive(true);
+    }
+
+
+    public void HideKingBoost()
+    {
+        _kingBoostText.SetActive(false);
+    }
+    #endregion
 }

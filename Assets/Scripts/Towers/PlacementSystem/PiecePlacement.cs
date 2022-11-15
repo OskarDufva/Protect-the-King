@@ -17,11 +17,7 @@ public class PiecePlacement : MonoBehaviour
         currencySystem = FindObjectOfType<CurrencySystem>();
     }
 
-    private void Update()
-    {
-        
-    }
-
+    //Spawns the tower depending what bools are active and take money when spawned
     public void SpawnTower(bool SpawnKing,int cost,bool SpawnUpgrade)
     {
         if (SpawnKing == false && SpawnUpgrade == false)
