@@ -44,8 +44,7 @@ public class EnemyStats : MonoBehaviour
         health -= damage;
 
         //Color change when damge
-        spriteColor.color = new Color(1, 0, 0, 255);
-        // Reset it to defualt Color
+        StartCoroutine(damageColor());
 
 
         healthBar.fillAmount = health / startHealth;
@@ -58,6 +57,13 @@ public class EnemyStats : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    IEnumerator damageColor()
+    {
+        spriteColor.color = new Color(1, 0, 0, 255);
+        yield return new WaitForSeconds(0.2f);
+        spriteColor.color = new Color(255, 255, 255, 255);
     }
 
     //runs code when destroyed addes gold to the currency manager
