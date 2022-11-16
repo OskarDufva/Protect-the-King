@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameModeScript : MonoBehaviour
 {
     public Animator transition;
+    public Animator loadingAnim;
     public float transitionTime = 5f;
     string currentScene;
 
@@ -16,6 +17,7 @@ public class GameModeScript : MonoBehaviour
         if (currentScene == "TutorialScene")
         {
             transition.SetTrigger("Start");
+            transition.SetTrigger("stopLoad");
         }
     }
     public void GoBackToMainMenu()
@@ -36,6 +38,7 @@ public class GameModeScript : MonoBehaviour
     IEnumerator LoadLevel(string sceneName)
     {
         transition.SetTrigger("FadeIn");
+        loadingAnim.SetTrigger("startLoad");
         yield return new WaitForSeconds(transitionTime);
         SceneManager.LoadScene(sceneName);
     }

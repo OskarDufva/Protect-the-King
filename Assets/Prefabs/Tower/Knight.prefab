@@ -100,8 +100,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82010e575f9b50a4e9f803d9364c0c92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _damage: 20
-  _attackSpeed: 2
+  _damage: 10
+  _attackSpeed: 0.5
   _targetedTiles: []
   SellGold: 0
 --- !u!114 &1922590151005163991

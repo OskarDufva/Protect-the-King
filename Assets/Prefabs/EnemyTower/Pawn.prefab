@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1019361342603413412}
   - component: {fileID: 8915260487749734902}
   - component: {fileID: 4473513007878125529}
+  - component: {fileID: 7696076624894596248}
   m_Layer: 6
   m_Name: Pawn
   m_TagString: Untagged
@@ -133,6 +134,35 @@ MonoBehaviour:
   Damage: 10
   GoldGained: 5
   healthBar: {fileID: 9175575202238474572}
+--- !u!114 &7696076624894596248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027195559047122639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_ComponentVersion: 1
+  m_HasRenderer: 1
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_ApplyToSortingLayers: 000000002b1404bd4dd0b0d9a31d6d5f7b2cbb6ea71543d22d988c2aeb7faea2b5e292d7916d005b
+  m_ShapePath:
+  - {x: -0.63059926, y: -0.16578138, z: 0}
+  - {x: -0.7057814, y: 0.017821789, z: 0}
+  - {x: 0.72457904, y: -0.03229896, z: 0}
+  - {x: 0.71761405, y: -0.1999084, z: 0}
+  - {x: 0.6055414, y: -0.32240906, z: 0}
+  - {x: -0.5103473, y: -0.31894523, z: 0}
+  m_ShapePathHash: -371497689
+  m_Mesh: {fileID: 0}
+  m_InstanceId: -19140
 --- !u!1 &2027195559372920581
 GameObject:
   m_ObjectHideFlags: 0
