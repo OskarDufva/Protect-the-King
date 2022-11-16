@@ -27,6 +27,9 @@ public class King : MonoBehaviour
     {
 
         _health -= damage;
+
+        //Color when taking damge
+
         txt_HealthCount.SetText("Health: " + _health.ToString());
         if (_health <= 0 && !isDead)
         {

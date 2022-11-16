@@ -14,6 +14,8 @@ public class EnemyStats : MonoBehaviour
 
     public Image healthBar;
 
+    SpriteRenderer spriteColor;
+
 
     private CurrencySystem _currencySystem;
     private bool _touchKing;
@@ -25,6 +27,8 @@ public class EnemyStats : MonoBehaviour
         _currencySystem = FindObjectOfType<CurrencySystem>();
 
         health = startHealth;
+
+        spriteColor = GetComponent<SpriteRenderer>();
 
         if (_wavemanager == null)
         {
@@ -38,6 +42,11 @@ public class EnemyStats : MonoBehaviour
     public void TakeDamage(float damage)
     {
         health -= damage;
+
+        //Color change when damge
+        spriteColor.color = new Color(1, 0, 0, 255);
+        // Reset it to defualt Color
+
 
         healthBar.fillAmount = health / startHealth;
         //if (_touchKing == true)
@@ -54,6 +63,7 @@ public class EnemyStats : MonoBehaviour
     //runs code when destroyed addes gold to the currency manager
     private void OnDestroy()
     {
+        //Play small animation
         _currencySystem.ChangeGold(GoldGained);
     }
 }
