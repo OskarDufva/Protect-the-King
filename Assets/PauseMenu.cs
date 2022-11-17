@@ -15,7 +15,7 @@ public class PauseMenu : MonoBehaviour
 
 
 
-    // Update is called once per frame
+    //inserts ESC to control pause and resume function.
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -31,7 +31,7 @@ public class PauseMenu : MonoBehaviour
         }
     }
 
-
+    //resumes the game if the button is clicked.
     public void Resume()
     {
         pauseMenuUI.SetActive(false);
@@ -39,10 +39,13 @@ public class PauseMenu : MonoBehaviour
         GameIsPaused = false;
     }
 
+    //restarts the scene if the button is clicked.
     public void RestartGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+
+    //pauses the game
     void Pause()
     {
         pauseMenuUI.SetActive(true);
@@ -50,11 +53,13 @@ public class PauseMenu : MonoBehaviour
         GameIsPaused = true;
     }
 
+    //loads the main menu
     public void LoadMainMenu()
     {
         SceneManager.LoadScene(0);
     }
 
+    //quits the game
     public void QuitGame()
     {
         Debug.Log("quitting...");

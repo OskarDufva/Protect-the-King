@@ -8,6 +8,7 @@ public class OpenPanel : MonoBehaviour
     bool active;
 
 
+    //Open and closes the shop with an animation
     public void OpenAndCloseShop()
     {
 
@@ -24,6 +25,7 @@ public class OpenPanel : MonoBehaviour
         }
     }
 
+    //disables the panel if the game is active.
     public void OpenAndClosePanel()
     {
         if (active == false)

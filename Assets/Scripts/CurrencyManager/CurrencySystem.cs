@@ -18,6 +18,7 @@ public class CurrencySystem : MonoBehaviour
         UpdateGoldCounter();
     }
 
+    //updates the gold to the UI
     void UpdateGoldCounter()
     {
         CurrencyIndicator.text = "Gold:" + Gold.ToString();

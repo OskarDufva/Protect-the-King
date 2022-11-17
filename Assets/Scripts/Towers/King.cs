@@ -15,6 +15,7 @@ public class King : MonoBehaviour
     private GameManager _gameManager;
 
 
+    //sets the health to the maxhealth and sets the text to the health value.
     private void Start()
     {
         _gameManager = FindObjectOfType<GameManager>();
